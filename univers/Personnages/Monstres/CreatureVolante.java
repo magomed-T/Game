@@ -1,12 +1,12 @@
 package univers.Personnages.Monstres;
 import univers.Element;
 import univers.Interfaces.Vol;
+import univers.Personnages.Monstre;
 
-public class CreatureVolante extends Creature implements Vol{
+public class CreatureVolante extends Monstre implements Vol{
     boolean vol = false;
     public CreatureVolante(String Nom,int vie){
-        super(Nom);
-        this.vie = vie;
+        super(Nom,vie);
     }
 
     public CreatureVolante(String Nom,int vie,Element[] Elems){

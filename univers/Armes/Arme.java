@@ -29,7 +29,26 @@ public abstract class Arme implements Serializable{
         this.Elem = Elem;
     }
 
-    public abstract void Competence();// Envoie une competence speciale selon l'arme.
+    public static boolean CycleElem(Element e1, Element e2){
+        if(e1==null ||e2 == null) return false;
+        if (e1 == e2){
+            return false;
+        }
+        else{
+            if ( (e1 == Element.EAU && e2 == Element.FEU) || (e1 == Element.FEU && e2 == Element.TERRE) || (e1 == Element.TERRE && e2 == Element.EAU))
+                return true;
+            else 
+                return false;
+        }
+    }
+
+    public static boolean CycleElems(Element e1, Element[] elements){
+        if (elements == null) return false;
+        boolean e = false;
+        for (Element e2 : elements)
+            e = e || CycleElem(e1, e2);
+        return e;
+    }
 
     @Override 
     public String toString(){
@@ -44,6 +63,10 @@ public abstract class Arme implements Serializable{
         this.attaque+= att;
         this.portee += port;
         this.precision += prec;
+    }
+
+    public int getPuissance(){
+        return this.attaque + this.portee + this.precision;
     }
 
     //GETTERS

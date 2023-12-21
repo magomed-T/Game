@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -147,7 +148,7 @@ public class Lecture {
         return nodeNextMap;
     }
 
-    private static <K, V> Map<K, V> createMap(List<K> keys, List<V> values) {
+    public static <K, V> Map<K, V> createMap(List<K> keys, List<V> values) {
         try{
             if (keys.size() != values.size()) {
                 throw new IllegalArgumentException();
@@ -170,6 +171,14 @@ public class Lecture {
             map.put(keys.get(i), values.get(i));
         }
         return map;
+    }
+
+    public static <K> List<K> tabToArray(K[] tab){
+        List<K>array = new ArrayList<>();
+        for (K elem : tab){
+            array.add(elem);
+        }
+        return array;
     }
 
     public static void AfficheNodeMap( Map<String,Node> nodeMap , Map<String,List<String>> NodeNextMap){
@@ -201,8 +210,25 @@ public class Lecture {
             nodeMap.get(key).addPerso(heros);
         }
     }
-    public static void main(String[] args){
+    public static int reponseInt(int nbOfDecision){
+        Scanner sc = new Scanner(System.in);
+        int reponse;
 
+        do{
+            System.out.print("\nDECISION : ");
+            try{
+            reponse = sc.nextInt();
+            //System.out.println("nbOfDecision : " +nbOfDecision);
+            if (reponse > nbOfDecision || reponse<1)
+                throw new IllegalArgumentException();
+            break;
+            }
+            catch(Exception e){
+                System.out.println("\nCARACTERE INVALIDE:\nEntrez un entier parmi les reponses proposés...\n");
+                sc.nextLine();
+            }  
+        }while(true);
+        return reponse;
     }
 }
     

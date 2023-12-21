@@ -9,6 +9,11 @@ public abstract class PersonnageDeBase implements Serializable {
         this.Nom = Nom;
     }
 
+    public PersonnageDeBase(String Nom,int vie){
+        this.Nom = Nom;
+        this.vie = vie;
+    }
+
 
     @Override 
     public String toString(){

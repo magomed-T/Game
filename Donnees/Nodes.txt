@@ -1,72 +1,72 @@
-I1 : Vous vous réveillez en plein milieu d'une pièce vide. Vous ne savez pas qui vous êtes. Vous avez perdu la mémoire.
+I1 : Vous vous reveillez en plein milieu d'une piece vide. Vous ne savez pas qui vous etes. Vous avez perdu la memoire.
 
-I2  : Vous voyez un mystérieux personnage arrivé du ciel. Qui est ce mystérieux personnage ?
+I2  : Vous voyez un mysterieux personnage arrive du ciel. Qui est ce mysterieux personnage ?
 
-I3 : Salut, je suis Hermes, je viens t'aider dans ton aventure. Tu es dans le célèbre et redoutable labyrinthe de Dédale.
+I3 : Salut, je suis Hermes, je viens t'aider dans ton aventure. Tu es dans le celebre et redoutable labyrinthe de Dedale.
 
-I4 : Considère ce lieu comme ta prison. Dieu t'as enfermé pour avoir commis un crime impardonnable !
+I4 : Considere ce lieu comme ta prison. Dieu t'as enferme pour avoir commis un crime impardonnable !
 
-I5 : Ta mission est de t'echapper ou sinon tu périras à vie dans ce lieu.
+I5 : Ta mission est de t'echapper ou sinon tu periras a vie dans ce lieu.
 
-I6 : Très bien. Commençons.
+I6 : Tres bien. Commençons.
 
 I7: QUOI ! Tu n'as pas compris ?? ... Comment dire ...
 
 I8: Contente toi de ne pas mourir !
 
-I9: Avant de partir, je vais t'offrir un cadeau, histoire que tu ne meurs pas dès les premières secondes.
+I9: Avant de partir, je vais t'offrir un cadeau, histoire que tu ne meurs pas des les premieres secondes.
 
-I10: Désormais ta destinée ne tient plus qu'à tes propres décisions.
+I10: Desormais ta destinee ne tient plus qu'a tes propres decisions.
 
-I11: Je te souhaite bonne chance pour ton aventure. Nous nous reverrons très sûrement. Enfin ... si tu es toujours vivant.
+I11: Je te souhaite bonne chance pour ton aventure. Nous nous reverrons tres surement. Enfin ... si tu es toujours vivant.
 
-I12: Hermès s'en ...
+I12: Hermes s'en ...
 
-I13: Vous continuez sur le seul couloir qui se présente à vous dans la pièce. Le couloir est ancien et sombre dans le fond mais vous n'avez pas le choix. Seules quelques torches éclairent le lieu. 
+I13: Vous continuez sur le seul couloir qui se presente a vous dans la piece. Le couloir est ancien et sombre dans le fond mais vous n'avez pas le choix. Seules quelques torches eclairent le lieu. 
 
-I14: Au fur et à mesure que vous avancez. Des carcasses de morts et des os humains trainent sur le sol. La poussière enveloppe le lieu, vous ne voyez pas plus de 5 mètres devant vous. Des toiles d'araignées recouvrent les murs et l'odeur est infâme, une sorte d'odeur de chair. Quelque chose cloche ...
+I14: Au fur et a mesure que vous avancez. Des carcasses de morts et des os humains trainent sur le sol. La poussiere enveloppe le lieu, vous ne voyez pas plus de 5 metres devant vous. Des toiles d'araignees recouvrent les murs et l'odeur est infame, une sorte d'odeur de chair. Quelque chose cloche ...
 
-I15: Vous voyez un cocon en toile d'araignée au niveau du plafond, un cadavre à l'air d'y être suspendu. Il fait trop sombre pour savoir s'il est vivant ou mort. Vous vous approchez de ce cadavre...
+I15: Vous voyez un cocon en toile d'araignee au niveau du plafond, un cadavre a l'air d'y etre suspendu. Il fait trop sombre pour savoir s'il est vivant ou mort. Vous vous approchez de ce cadavre...
 
-I16: Vous vous approchez lentement de l'araignée.
+I16: Vous vous approchez lentement de l'araignee.
 
-I17 : Hélas, celle-ci bondit sur vous, pour y planter ses griffes, arrachant brusquement la tête de votre corps. Elle finit par envelopper le reste de votre corps dans un cocon pour donner à manger à ses enfants araignées. Elle avait probablement faim...
+I17 : Helas, celle-ci bondit sur vous, pour y planter ses griffes, arrachant brusquement la tete de votre corps. Elle finit par envelopper le reste de votre corps dans un cocon pour donner a manger a ses enfants araignees. Elle avait probablement faim...
 
-I18: Vous bondissez sur elle en utilisant votre arme et vous réussissez à l'abattre. Bien joué !
+I18: Vous bondissez sur elle en utilisant votre arme (Combat).
 
-I19 : Vous faites un bond en arrière et lui infligez une attaque à distance.\n
+I19 : Vous faites un bond en arrière et lui infligez une attaque à distance.(Combat)
 
 I20 : Vous avez obtenu de la Cire !
 
-I21 : Vous continuez votre chemin et voyez que le couloir se sépare en deux chemins différents.
+I21 : Vous continuez votre chemin et voyez que le couloir se separe en deux chemins differents.
 
-I22 : Vous progressez dans ce très long couloir en remarquant que le couloir ressemble à celui d'un château. La pièce est très bien entretenue. Quelqu'un est sûrement passé par ici... Vous remarquez à quel point le chemin est majestueux. Mais vous apercevez une grande porte en or barrant la route. A côté, une grande statue dorée garde la porte prenant la forme d'un animal étrange (mi oiseau mi homme); ... Un SPHINX.
+I22 : Vous progressez dans ce tres long couloir en remarquant que le couloir ressemble a celui d'un chateau. La piece est tres bien entretenue. Quelqu'un est surement passe par ici... Vous remarquez a quel point le chemin est majestueux. Mais vous apercevez une grande porte en or barrant la route. A cote, une grande statue doree garde la porte prenant la forme d'un animal etrange (mi oiseau mi homme); ... Un SPHINX.
 
-I23: Vous touchez la porte et essayez de l'ouvrir. La porte est condamnée... Mince !
+I23: Vous touchez la porte et essayez de l'ouvrir. La porte est condamnee... Mince !
 
-I24 : La statue en or vous regarde et dit d'une voix assourdissante :\n " Pour passer, Mortel, tu devras répondre à cette énigme. Ce n'est pas la force qui fait le mérite d'une nation mais son intelligence. Si tu as juste, la porte s'ouvrira. Si tu as faux, tu mourras.
+I24 : La statue en or vous regarde et dit d'une voix assourdissante :\n " Pour passer, Mortel, tu devras repondre a cette enigme. Ce n'est pas la force qui fait le merite d'une nation mais son intelligence. Si tu as juste, la porte s'ouvrira. Si tu as faux, tu mourras.
 
-I25: La statue en forme de Sphinx se déplace vers vous. Elle déploie ses ailes et vous attrape sauvagement avec ses griffes. Votre corps se fait déchiqueter et puis dévoré...
+I25: La statue en forme de Sphinx se deplace vers vous. Elle deploie ses ailes et vous attrape sauvagement avec ses griffes. Votre corps se fait dechiqueter et puis devore...
 
-I26 : Les Yeux de la statue en or s'illuminent et au bout de quelques secondes, la gigantesque porte en or s'ouvre lentement devant vous. Vous avez réussi ! Bien joué !
+I26 : Les Yeux de la statue en or s'illuminent et au bout de quelques secondes, la gigantesque porte en or s'ouvre lentement devant vous. Vous avez reussi ! Bien joue !
 
-I27 : Dès que la porte s'ouvre, vous progressez dans un magnifique couloir avec des statues de dieux et des décorations destinées aux plus grands rois. Dans cette même pièce, vous apercevez un banquet avec du vin et de la nourriture, mais cette nourriture est dorée et n'a pas l'air comestible. Vous apercevez une deuxième porte que vous ouvrez...
+I27 : Des que la porte s'ouvre, vous progressez dans un magnifique couloir avec des statues de dieux et des decorations destinees aux plus grands rois. Dans cette meme piece, vous apercevez un banquet avec du vin et de la nourriture, mais cette nourriture est doree et n'a pas l'air comestible. Vous apercevez une deuxieme porte que vous ouvrez...
 
-I28 : En ouvrant la porte, vous voyez un trône en hauteur où un vieil homme est assis. Dans la pièce, plusieurs statues dorées y sont présentes.  Deux autres gardes de part et d'autre de la pièce vous aperçoivent et se ruent autour de vous, vous encerclant.\nLe vieil homme vous dit :\n " Qui êtes vous pour entrer dans mon palais ? Aucun homme n'y est passé depuis 200 ans. "
+I28 : En ouvrant la porte, vous voyez un trone en hauteur où un vieil homme est assis. Dans la piece, plusieurs statues dorees y sont presentes.  Deux autres gardes de part et d'autre de la piece vous aperçoivent et se ruent autour de vous, vous encerclant.\nLe vieil homme vous dit :\n " Qui etes vous pour entrer dans mon palais ? Aucun homme n'y est passe depuis 200 ans. "
 
-I29 : En lui tendant la main, le vieil homme vous prend la main et vous transforme en statue d'or. Vous vous êtes fait avoir par la malédiction du roi Midas !\n Vous finissez comme les autres statues autour de vous immobile éternellement et finissez par mourir...
+I29 : En lui tendant la main, le vieil homme vous prend la main et vous transforme en statue d'or. Vous vous etes fait avoir par la malediction du roi Midas !\n Vous finissez comme les autres statues autour de vous immobile eternellement et finissez par mourir...
 
-I30: " Je vois. Vous êtes un homme rusé et réfléchi qui ne se soumet pas facilement même quand un roi vous le demande." \nLe vieil homme continue de parler :\n" Mon nom est Midas. Je suis le roi de Phrygie. Tout ce qui m'intéressait était l'or. Bien que j'avais atteint un âge où j'étais déjà bien assez riche, l'or était devenu une obsession.. Mais mon voeu est vite devenu une malédiction.\nIncapable de manger, de boire, de toucher, tout ce que je touchais se transformait en or. \nLes plaisirs les plus simples comme manger, boire ne pouvant être satisfaits, je finis pas être affamé éternellement."
+I30: " Je vois. Vous etes un homme ruse et reflechi qui ne se soumet pas facilement meme quand un roi vous le demande." \nLe vieil homme continue de parler :\n" Mon nom est Midas. Je suis le roi de Phrygie. Tout ce qui m'interessait etait l'or. Bien que j'avais atteint un age où j'etais deja bien assez riche, l'or etait devenu une obsession.. Mais mon voeu est vite devenu une malediction.\nIncapable de manger, de boire, de toucher, tout ce que je touchais se transformait en or. \nLes plaisirs les plus simples comme manger, boire ne pouvant etre satisfaits, je finis pas etre affame eternellement."
 
 I31: Vous tentez de faire tomber un garde ...
 
-I32: Hélas, les gardes vous attrapent et vous vous faites empaler par un des gardes, vous finissez par mourir ...
+I32: Helas, les gardes vous attrapent et vous vous faites empaler par un des gardes, vous finissez par mourir ...
 
-I33: Vous réussissez à abattre les autres gardes ainsi que le roi. Bien joué ! Vous avez été chanceux ! Il faut savoir prendre des risques.
+I33: Vous reussissez a abattre les autres gardes ainsi que le roi. Bien joue ! Vous avez ete chanceux ! Il faut savoir prendre des risques.
 
-I34 : J'ai une requête pour vous. Abattez la personne qui m'a maudit : Le dieu Dionysos et je vous ferai part de mon plus grand cadeau, une épée pouvant soumettre une cité entière.\n Je ne suis pas en mesure d'y aller moi même. L'entrée de sa demeure est scellée par une barrière magique avec un message écrit en langage divin. Personne ne peut y passer à part les dieux.
+I34 : J'ai une requete pour vous. Abattez la personne qui m'a maudit : Le dieu Dionysos et je vous ferai part de mon plus grand cadeau, une epee pouvant soumettre une cite entiere.\n Je ne suis pas en mesure d'y aller moi meme. L'entree de sa demeure est scellee par une barriere magique avec un message ecrit en langage divin. Personne ne peut y passer a part les dieux.
 
-I35 : Récemment, un certain messager Hermès a été aperçu par un de mes gardes, tenant du vin entre les mains.Le vin pourrait être la clef pour entrer.\nPrenez la dernière bouteille de vin que mon garde vous donne, et versez le dans le calice à l'entrée dans sa demeure. Je vous laisse le passage vers le prochain couloir, sa demeure est sur la gauche. Revenez sain et sauf avec sa tête coupée et vous recevrez votre récompense.
+I35 : Recemment, un certain messager Hermes a ete aperçu par un de mes gardes, tenant du vin entre les mains.Le vin pourrait etre la clef pour entrer.\nPrenez la derniere bouteille de vin que mon garde vous donne, et versez le dans le calice a l'entree dans sa demeure. Je vous laisse le passage vers le prochain couloir, sa demeure est sur la gauche. Revenez sain et sauf avec sa tete coupee et vous recevrez votre recompense.
 
 I36 : Vous prenez la bouteille de vin et continuez sur le couloir suivant.
 
@@ -74,180 +74,208 @@ I37 : null
 
 I38 : Vous prenez votre arme, et faites une petite entaille dans votre main, versant ainsi du sang dans le calice.
 
-I39 : Hélas, une flèche sort du mur en face de vous, transperçant ainsi votre crâne ...
+I39 : Helas, une fleche sort du mur en face de vous, transperçant ainsi votre crane ...
 
-I40 : Vous prenez le vin que Midas vous a donné et le verse dans le calice. Au bout de quelques secondes. Un passage en pierre s'ouvre devant vous. Vous avez réussi à passer, bien joué.
+I40 : Vous prenez le vin que Midas vous a donne et le verse dans le calice. Au bout de quelques secondes. Un passage en pierre s'ouvre devant vous. Vous avez reussi a passer, bien joue.
 
 I41 : Vous n'avez pas de vin. :/
 
-I42 : Vous progressez jusqu'à atteindre une pièce qui ressemble au monde extérieur. La pièce ressemble à une forêt , avec de l'herbe, de la verdure, et  des animaux inoffensifs. Il fait calme et beau . Un ruisseau d'eau vous sépare d'une petite maison en bois et vous voyez un pont en bois et de l'autre côté, la maison.\n
+I42 : Vous progressez jusqu'a atteindre une piece qui ressemble au monde exterieur. La piece ressemble a une foret , avec de l'herbe, de la verdure, et  des animaux inoffensifs. Il fait calme et beau . Un ruisseau d'eau vous separe d'une petite maison en bois et vous voyez un pont en bois et de l'autre cote, la maison.\n
 
-I43 : Vous décochez une flèche et vous réussissez à le toucher. Le centaure tombe du pont vous laissant le passage libéré.
+I43 : Vous decochez une fleche et vous reussissez a le toucher. Le centaure tombe du pont vous laissant le passage libere.
 
-I44 : Vous attendez qu'il vienne mais le centaure décoche une nouvelle flèche en se ruant vers vous et ne le rate pas, transperçant votre coeur ...
+I44 : Vous attendez qu'il vienne mais le centaure decoche une nouvelle fleche en se ruant vers vous et ne le rate pas, transperçant votre coeur ...
 
-I45 : Le centaure vous a repéré. Il décoche une flèche au niveau de votre genou et finit par vous écraser brutalement avec ses sabots.
+I45 : Le centaure vous a repere. Il decoche une fleche au niveau de votre genou et finit par vous ecraser brutalement avec ses sabots.
 
-I46 : Le centaure s'avance vers la forêt mais vous a perdu de vue. \nVous sautez sur lui et lui infligez une attaque mortelle. Bien joué.
+I46 : Le centaure s'avance vers la foret mais vous a perdu de vue. \nVous sautez sur lui et lui infligez une attaque mortelle. Bien joue.
 
-I47 : Vous vous approchez de Dionysos en tenant la dague à côté de lui. Mais Dionysos se réveille, et aperçoit la dague autour du cou ... Il comprend que quelqu'un veut l'assassiner, et dit d'un ton suppliant: "Attendez, attendez ! Ne me tuez...". Vous lui tranchez la tête d'un coup sec.
+I47 : Vous vous approchez de Dionysos en tenant la dague a cote de lui. Mais Dionysos se reveille, et aperçoit la dague autour du cou ... Il comprend que quelqu'un veut l'assassiner, et dit d'un ton suppliant: "Attendez, attendez ! Ne me tuez...". Vous lui tranchez la tete d'un coup sec.
 
-I48 : " QUOI ?! Tu ne veux pas faire la fête ?! Moi, le Dieu de l'ivresse de la festivité " Dionysos prend sa dague et vous poignarde dans le ventre. Vous mourrez ensuite
+I48 : " QUOI ?! Tu ne veux pas faire la fete ?! Moi, le Dieu de l'ivresse de la festivite " Dionysos prend sa dague et vous poignarde dans le ventre. Vous mourrez ensuite
 
-I49 : " Santé ! L'ami ! " Vous buvez tous les deux votre verre et vous vous en resservez un autre. Vous continuez à boire jusqu'à finir la bouteille de vin. Dionysos finit par vous apprécier. " Ecoute, j'ai un cadeau pour toi pour m'avoir fait passé un bon moment. C'est la flûte de Pan. 
+I49 : " Sante ! L'ami ! " Vous buvez tous les deux votre verre et vous vous en resservez un autre. Vous continuez a boire jusqu'a finir la bouteille de vin. Dionysos finit par vous apprecier. " Ecoute, j'ai un cadeau pour toi pour m'avoir fait passe un bon moment. C'est la flute de Pan. 
 
-I50 : " Mon cher ami Pan, l'a construit pour jouer un morceau à sa femme, la nymphe Syrinx. Mais Syrinx n'est jamais revenu la revoir. Elle a été en fait punie par ses parents à cause de son amour pour Pan et elle a été transformée en roseau. Sans le savoir, Pan a fabriqué cette flûte à partir des branches du roseau où Syrinx a été transformée. Sachant ça, Pan s'est suicidé et m'a prêté sa flûte. Tiens le voilà, c'est un cadeau. de ma part"
+I50 : " Mon cher ami Pan, l'a construit pour jouer un morceau a sa femme, la nymphe Syrinx. Mais Syrinx n'est jamais revenu la revoir. Elle a ete en fait punie par ses parents a cause de son amour pour Pan et elle a ete transformee en roseau. Sans le savoir, Pan a fabrique cette flute a partir des branches du roseau où Syrinx a ete transformee. Sachant ça, Pan s'est suicide et m'a prete sa flute. Tiens le voila, c'est un cadeau. de ma part"
 
-I51 : Vous revenez voir Midas en lui montrant la tête de Dionysos. Celui-ci tend sa main et vous remercie d'une poignée de main et dit : \n" Dieu merci, la malédiction est levée. Je vous dois une fière chandelle. Je peux désormais manger et boire sans crainte. Prenez ceci en gage de ma gratitude."
+I51 : Vous revenez voir Midas en lui montrant la tete de Dionysos. Celui-ci tend sa main et vous remercie d'une poignee de main et dit : \n" Dieu merci, la malediction est levee. Je vous dois une fiere chandelle. Je peux desormais manger et boire sans crainte. Prenez ceci en gage de ma gratitude."
 
 I52 : Vous acceptez et continuez votre chemin.
 
-I53: Vous continuez votre progression... Alors que l'obscurité règne plus que jamais, une lueur céleste apparaît. Cette lumière provient de l'extérieur. Vous suivez cette lumière.\n Vous arrivez à une grande pièce avec un plafond très haut mais surtout un accès vers l'extérieur depuis le plafond. Il fait jour. Le ciel est dégagé, et le soleil tapant. Vous entendez du bruit ...
+I53: Vous continuez votre progression... Alors que l'obscurite regne plus que jamais, une lueur celeste apparaît. Cette lumiere provient de l'exterieur. Vous suivez cette lumiere.\n Vous arrivez a une grande piece avec un plafond tres haut mais surtout un acces vers l'exterieur depuis le plafond. Il fait jour. Le ciel est degage, et le soleil tapant. Vous entendez du bruit ...
 
-I54 : " Ne t'en fais pas Icare, une fois ces ailes terminées, nous pourrons sortir de là. Et là-bas, tu pourras y voir pour la première fois la mer, le soleil, les champs étendus du royaume de Grèce, ainsi que ses prairies et ses forêts verdoyantes. Je t'aime filston, mais tu dois t'échapper. tu n'as rien à faire dans ce labyrinthe avec moi ! Mais j'ai besoin de cire ..."
+I54 : " Ne t'en fais pas Icare, une fois ces ailes terminees, nous pourrons sortir de la. Et la-bas, tu pourras y voir pour la premiere fois la mer, le soleil, les champs etendus du royaume de Grece, ainsi que ses prairies et ses forets verdoyantes. Je t'aime filston, mais tu dois t'echapper. tu n'as rien a faire dans ce labyrinthe avec moi ! Mais j'ai besoin de cire ..."
 
-I55 : L'homme s'approche de vous lentement et saisit votre arme, ne vous permettant plus de la récupérer , et dit : " Pardonnez-moi, je ne peux pas prendre de risques. C'est pour protéger mon fils." Vous réagissez en bondissant en arrière, mais celui-ci vous poignarde quatre fois dans le ventre. Vous finissez par saigner et mourir ...
+I55 : L'homme s'approche de vous lentement et saisit votre arme, ne vous permettant plus de la recuperer , et dit : " Pardonnez-moi, je ne peux pas prendre de risques. C'est pour proteger mon fils." Vous reagissez en bondissant en arriere, mais celui-ci vous poignarde quatre fois dans le ventre. Vous finissez par saigner et mourir ...
 
 I56 : Vous n'avez pas de cire :\
 
-I57 : Hélas, celui-ci a réussi à esquiver et vous poignarde dans le ventre avec sa dague...
+I57 : Helas, celui-ci a reussi a esquiver et vous poignarde dans le ventre avec sa dague...
 
-I58 :Vous arrivez à lui infliger un coup fatal, et finissez par le planter dans le coeur. Son fils, effrayé, regardant la mort de son père avec effroi, vous supplie en pleurant de l'épargner. Vous vous approchez de lui, et vous arrachez les ailes en cire d'Icare implantées dans son dos. Ce dernier crie de douleurs, et finit par vous mourir vidé de son sang. Vous n'avez pas de coeur ...
+I58 :Vous arrivez a lui infliger un coup fatal, et finissez par le planter dans le coeur. Son fils, effraye, regardant la mort de son pere avec effroi, vous supplie en pleurant de l'epargner. Vous vous approchez de lui, et vous arrachez les ailes en cire d'Icare implantees dans son dos. Ce dernier crie de douleurs, et finit par vous mourir vide de son sang. Vous n'avez pas de coeur ...
 
 I59 : Vous avez obtenu les ailes d'Icare
 
-I60 : Vous tendez la cire que vous avez obtenue et montrer que vous êtes inoffensif. Le vieil homme range sa dague et dit:\n" Vous êtes donc aussi un humain comme moi. Faites attention, rare sont les personnes inoffensives dans ce labyrinthe. \nJe suis Dédale, le créateur de ce lieu. Avant que vous me le disiez, Non , je ne connais pas la sortie de ce lieu. Ce lieu a été construit pour enfermer un certain monstre, le Minotaure. Si vous entrez dans ce labyrinthe , vous ne pourrez plus jamais en sortir , enfin plutôt..., si vous n'avez pas les cartes comme moi maintenant.
+I60 : Vous tendez la cire que vous avez obtenue et montrer que vous etes inoffensif. Le vieil homme range sa dague et dit:\n" Vous etes donc aussi un humain comme moi. Faites attention, rare sont les personnes inoffensives dans ce labyrinthe. \nJe suis Dedale, le createur de ce lieu. Avant que vous me le disiez, Non , je ne connais pas la sortie de ce lieu. Ce lieu a ete construit pour enfermer un certain monstre, le Minotaure. Si vous entrez dans ce labyrinthe , vous ne pourrez plus jamais en sortir , enfin plutot..., si vous n'avez pas les cartes comme moi maintenant.
 
-I61 : Zeus m'a enfermé ici malgré toutes les offrandes et services que j'ai pu offrir aux Dieux. Maudits soient les Dieux. Ingrats et cruels, ils ne voient pas tout ce que j'ai fait pour eux. Et en échange, ils m'enferment dans ce labyrinthe, MON propre labyrinthe .
+I61 : Zeus m'a enferme ici malgre toutes les offrandes et services que j'ai pu offrir aux Dieux. Maudits soient les Dieux. Ingrats et cruels, ils ne voient pas tout ce que j'ai fait pour eux. Et en echange, ils m'enferment dans ce labyrinthe, MON propre labyrinthe .
 
-I62 : Écoutez, je vois que vous avez de la cire. J'ai peut être une solution pour pouvoir nous faire sortir de cette prison.\nVous voyez, de cette pièce, nous pouvons voir l'extérieur. Cependant, les murs sont trop hauts. Impossible de les atteindre en grimpant.
+I62 : ecoutez, je vois que vous avez de la cire. J'ai peut etre une solution pour pouvoir nous faire sortir de cette prison.\nVous voyez, de cette piece, nous pouvons voir l'exterieur. Cependant, les murs sont trop hauts. Impossible de les atteindre en grimpant.
 
-I63 : Au bout de quelques minutes, Dédale fini de régler les ailes d'Icare. Il dit : " Enfin ! Tu vas pouvoir sortir mon fils ! Si tu sors, trouve une femme nommée Arianne et dis lui que son vieil ami a perdu le fil avec le temps. Elle saura comment me trouver. Et surtout, ne vole ni trop près du soleil, car sa chaleur fond la cire de tes ailes, ni trop près de la mer, car l'humidité aura le même effet. "
+I63 : Au bout de quelques minutes, Dedale fini de regler les ailes d'Icare. Il dit : " Enfin ! Tu vas pouvoir sortir mon fils ! Si tu sors, trouve une femme nommee Arianne et dis lui que son vieil ami a perdu le fil avec le temps. Elle saura comment me trouver. Et surtout, ne vole ni trop pres du soleil, car sa chaleur fond la cire de tes ailes, ni trop pres de la mer, car l'humidite aura le meme effet. "
 
-I64 : Icare se prépare et s'élance avec enthousiasme jusqu'à pouvoir utiliser ses ailes. Il continue de voler en faisant le tour de la pièce et prend de la hauteur.\nDédale est réjoui, voyant  que son invention fonctionne mais celui s'inquiète car Icare prend trop de hauteur. Il crie : " Icare, ne vole pas trop près du soleil ou tes ailes fondront. "
+I64 : Icare se prepare et s'elance avec enthousiasme jusqu'a pouvoir utiliser ses ailes. Il continue de voler en faisant le tour de la piece et prend de la hauteur.\nDedale est rejoui, voyant  que son invention fonctionne mais celui s'inquiete car Icare prend trop de hauteur. Il crie : " Icare, ne vole pas trop pres du soleil ou tes ailes fondront. "
 
-I65 : Icare s'amuse et ne suit plus les instructions de son père, hypnotisé par le plaisir de voler. Il commence à prendre encore de la hauteur mais celui - ci perd le contrôle. Les ailes commencent à fondre à cause du soleil et ce dernier tombe du ciel, de plus de cent mètres et atterrit violemment au sol, le laissant pour mort.
+I65 : Icare s'amuse et ne suit plus les instructions de son pere, hypnotise par le plaisir de voler. Il commence a prendre encore de la hauteur mais celui - ci perd le controle. Les ailes commencent a fondre a cause du soleil et ce dernier tombe du ciel, de plus de cent metres et atterrit violemment au sol, le laissant pour mort.
 
-I66 : " Com... Comment ??! Icare ?! Icare ? " dit-il épouvanté. Mais le visage défiguré d'Icare par la chute et la flac de sang montrent Icare mort. Dédale s'approche du cadavre d'Icare : " Ça... ça ne peut pas être vrai... Que s'est il passé ! Réponds moi Icare ! Réponds moi !" Aucune réponse et un silence pesant régne dans la pièce... 
+I66 : " Com... Comment ??! Icare ?! Icare ? " dit-il epouvante. Mais le visage defigure d'Icare par la chute et la flac de sang montrent Icare mort. Dedale s'approche du cadavre d'Icare : " Ça... ça ne peut pas etre vrai... Que s'est il passe ! Reponds moi Icare ! Reponds moi !" Aucune reponse et un silence pesant regne dans la piece... 
 
-I67 : Vous essayez de rassurer Dédale en vous approchant de lui. Mais celui-ci sort sa dague de sa poche et vous poignardé violemment dans le ventre. Vous finissez par mourir... 
+I67 : Vous essayez de rassurer Dedale en vous approchant de lui. Mais celui-ci sort sa dague de sa poche et vous poignarde violemment dans le ventre. Vous finissez par mourir... 
 
-I68 : " Fuis donc, tu n'as pas d'honneur ! Tu n'as pas honte d'avoir tué un enfant. " Vous fuyez de la pièce et allez au couloir suivant
+I68 : " Fuis donc, tu n'as pas d'honneur ! Tu n'as pas honte d'avoir tue un enfant. " Vous fuyez de la piece et allez au couloir suivant
 
-I69 : Vous infligez un coup mortel à Dédale. Déstabilisé par la situation, il ne le voit pas venir. Vous finissez par le planter au coeur. \nVous voyez les tristes cadavres de Dédale et Icare allongés au sol. Vous continuez votre chemin.
+I69 : Vous infligez un coup mortel a Dedale. Destabilise par la situation, il ne le voit pas venir. Vous finissez par le planter au coeur. \nVous voyez les tristes cadavres de Dedale et Icare allonges au sol. Vous continuez votre chemin.
 
 I70 : Vous avez reçu la Clef des Enfers
 
-I71 : Vous avez reçu la Lance d'Athéna
+I71 : Vous avez reçu la Lance d'Athena
 
-I72 : Au coin de la pièce, deux hommes parlent : un vieil homme et un jeune aux cheveux dorés. A sa gauche , vous voyez une table, avec différents outils . Vous remarquez que le jeune homme possède des ailes blanches en cire et en métal accroché à son dos, et que le vieil homme essaye d'ajuster ces ailes pour qu'elles fonctionnent bien. Vous écoutez la conversation ...
+I72 : Au coin de la piece, deux hommes parlent : un vieil homme et un jeune aux cheveux dores. A sa gauche , vous voyez une table, avec differents outils . Vous remarquez que le jeune homme possede des ailes blanches en cire et en metal accroche a son dos, et que le vieil homme essaye d'ajuster ces ailes pour qu'elles fonctionnent bien. Vous ecoutez la conversation ...
 
-I73: Vous commencez à jouer de la flûte de Pan devant Dédale et celui-ci s'endort. Bien joué !
+I73 : Vous commencez a jouer de la flute de Pan devant Dedale et celui-ci s'endort. Bien joue !
 
-I74 : Vous avez reçu l'épée d'Hector.
+I74 : Vous avez reçu l'epee d'Hector.
 
 I75 : Vous avez reçu le bouclier Miroir.
 
-I76: En avançant, vous entendez des cris qui semblent être ceux d'une femme. Ce sont des cris de désespoir "Aidez-moi je vous en supplie, que quelqu'un m'aide !!". Vous vous dirigez vers ces cris et vous progressez dans la pièce suivante. Vous voyez une femme attachée a un autel avec la statue d'une déesse (Artémis).  Au-dessus, une grande fenêtre surplombe la pièce où vous pouvez y voir la nuit sombre ainsi que la lune et ses lueurs bleuâtres traversant la fenêtre. Accroché à cet autel vous voyez un sublime arc en forme de croissant de Lune.
+I76: En avançant, vous entendez des cris qui semblent etre ceux d'une femme. Ce sont des cris de desespoir "Aidez-moi je vous en supplie, que quelqu'un m'aide !!". Vous vous dirigez vers ces cris et vous progressez dans la piece suivante. Vous voyez une femme attachee a un autel avec la statue d'une deesse (Artemis).  Au-dessus, une grande fenetre surplombe la piece où vous pouvez y voir la nuit sombre ainsi que la lune et ses lueurs bleuatres traversant la fenetre. Accroche a cet autel vous voyez un sublime arc en forme de croissant de Lune.
 
-I77: Vous prenez votre arme et infligez un coup violent sur les chaînes. Vous avez libéré la femme. " Que Dieu vous accorde une longue vie, vous venez de couper ces chaînes qui me garde emprisonnée depuis tant d'années." La femme vous remercie. Vous décidez de reprendre votre chemin quand soudain, alors que vous avez le dos tournée, le femme s'est tranformé en un immense Loup Garou. Elle vous dévore sans pitié. 
+I77: Vous prenez votre arme et infligez un coup violent sur les chaînes. Vous avez libere la femme. " Que Dieu vous accorde une longue vie, vous venez de couper ces chaînes qui me garde emprisonnee depuis tant d'annees." La femme vous remercie. Vous decidez de reprendre votre chemin quand soudain, alors que vous avez le dos tournee, le femme s'est tranforme en un immense Loup Garou. Elle vous devore sans pitie. 
 
-I78 : Vous essayez de calmer la bête mais celui-ci s'élance à toute vitesse vers vous. Il plante ses griffes dans votre corps et arrache votre tête avec son museau... Vous vous êtes fait décapiter.
+I78 : Vous essayez de calmer la bete mais celui-ci s'elance a toute vitesse vers vous. Il plante ses griffes dans votre corps et arrache votre tete avec son museau... Vous vous etes fait decapiter.
 
-I79:Vous lui tranchez le coeur avec votre arme, ne lui laissant aucune chance. Voilà une chose de faite. Vous continuez votre chemin.
+I79:Vous lui tranchez le coeur avec votre arme, ne lui laissant aucune chance. Voila une chose de faite. Vous continuez votre chemin.
 
-I80 : Vous avez reçu l'arc D'Artémis.
+I80 : Vous avez reçu l'arc D'Artemis.
 
-I81 : Le loup garou s'élance vers vous mais vous décidez de l'attaquer vaillamment avec votre arme. Un combat acharné s'ensuit :	
+I81 : Le loup garou s'elance vers vous mais vous decidez de l'attaquer vaillamment avec votre arme. Un combat acharne s'ensuit  (Combat) :	
 
-I82 : Vous sortez votre flûte de Pan et jouez de la flûte pour calmer le loup-garou. Ce dernier s'endort sur le sol et finit par redevenir humain. Vous avez levé la malédiction du Loup Garou ! Bien joué !\n La femme se réveilla et dit : "Vous...Vous m'avez sauvé de cette malédiction. Que Zeus vous bénisse ! Je vous en remercie mille fois ! Moi, et ma lignée avons été victime d'une  malédiction jetée par la déesse Artémis. Mon père, le chef de mon village a proposé à son peuple d'aller chasser un cerf blanc divin. Celui qui aura chassé ce cerf deviendrait le chef. Hélas, étant une femme, il ne m'a pas laissé la place d'héritère. Il voulait un homme. Intrépide, et ambitieuse, je voulus lui prouve ma force et ma bravour en chassant ce cerf.
+I82 : Vous sortez votre flute de Pan et jouez de la flute pour calmer le loup-garou. Ce dernier s'endort sur le sol et finit par redevenir humain. Vous avez leve la malediction du Loup Garou ! Bien joue !\n La femme se reveilla et dit : "Vous...Vous m'avez sauve de cette malediction. Que Zeus vous benisse ! Je vous en remercie mille fois ! Moi, et ma lignee avons ete victime d'une  malediction jetee par la deesse Artemis. Mon pere, le chef de mon village a propose a son peuple d'aller chasser un cerf blanc divin. Celui qui aura chasse ce cerf deviendrait le chef. Helas, etant une femme, il ne m'a pas laisse la place d'heritere. Il voulait un homme. Intrepide, et ambitieuse, je voulus lui prouve ma force et ma bravour en chassant ce cerf.
 
-I83 : Malheureusement, ce cerf dont la beauté est divine appartient à la déesse Artémis. Elle le traitait comme son animal favori. Lors d'un soir de pleine lune, j'aperçus ce cerf et le chassa. En voulant apporter son cadavre au village, je n'avais plus le contrôle de mon corps et mon apparence était devenue celle d'un loup. J'erra toute la nuit jusqu'à l'aube, en me réveillant le matin, nue dans la forêt. Artémis m'avait maudit d'une terrible malédiction et vous m'avez libéré ! Je vous en suis éternellement reconnaissant. Je peux vous donner ceci en guise de gratitude.
+I83 : Malheureusement, ce cerf dont la beaute est divine appartient a la deesse Artemis. Elle le traitait comme son animal favori. Lors d'un soir de pleine lune, j'aperçus ce cerf et le chassa. En voulant apporter son cadavre au village, je n'avais plus le controle de mon corps et mon apparence etait devenue celle d'un loup. J'erra toute la nuit jusqu'a l'aube, en me reveillant le matin, nue dans la foret. Artemis m'avait maudit d'une terrible malediction et vous m'avez libere ! Je vous en suis eternellement reconnaissant. Je peux vous donner ceci en guise de gratitude.
 
-I84 : Vous avez reçu une potion de vie. Vous décidez de la boire :\nVous avez reçu deux points de vies.
+I84 : Vous avez reçu une potion de vie. Vous decidez de la boire :\nVous avez reçu deux points de vies.
 
-I85 :La femme semble etre dans un etat deplorable, elle vous dit : "Par pitié, aidez moi s'il vous plait, coupez simplement ces chaines avec votre armes. Elles me retiennent prisonnières de puis plusieurs jours. Cela fait des dizaines de jours que je n'ai pu ni mangé ni boire. Je vous en supplie, aidez moi..."
+I85 :La femme semble etre dans un etat deplorable, elle vous dit : "Par pitie, aidez moi s'il vous plait, coupez simplement ces chaines avec votre armes. Elles me retiennent prisonnieres de puis plusieurs jours. Cela fait des dizaines de jours que je n'ai pu ni mange ni boire. Je vous en supplie, aidez moi..."
 
-I86 : Au fur et à mesure que vous avancez, vous rencontrez un homme, qui a l'air fort, avec une épée et un fil accroché à son pied. " Halte-La dit il, j'ai besoin de ton aide. Je suis le fils du roi d'Athènes. Un lourd tribut à été imposé par le roi Minos au royaume d Athènes, obligeant chaque année à donner 7 Athéniens et Athéniennes en sacrifice pour apaiser la colère du Minotaure. Je me suis porté volontaire afin de mettre fin à ces sacrifices et libérer le royaume d'Athènes."
+I86 : Au fur et a mesure que vous avancez, vous rencontrez un homme, qui a l'air fort, avec une epee et un fil accroche a son pied. " Halte-La dit il, j'ai besoin de ton aide. Je suis le fils du roi d'Athenes. Un lourd tribut a ete impose par le roi Minos au royaume d Athenes, obligeant chaque annee a donner 7 Atheniens et Atheniennes en sacrifice pour apaiser la colere du Minotaure. Je me suis porte volontaire afin de mettre fin a ces sacrifices et liberer le royaume d'Athenes."
 
-I87 : Vous progressez et vous entendez les Cris féroces d'un animal. En arrivant à la pièce, vous apercevez un être mi taureau mi homme ( le Minotaure) dégustant un humain. À côté, 6 cadavres d'humains sans têtes se tiennent prêt à être manger et une hache géante faisant la même taille que la créature est posée.  La pièce est grande et vide comme une arène de combat. 
+I87 : Vous progressez et vous entendez les Cris feroces d'un animal. En arrivant a la piece, vous apercevez un etre mi taureau mi homme ( le Minotaure) degustant un humain. a cote, 6 cadavres d'humains sans tetes se tiennent pret a etre manger et une hache geante faisant la meme taille que la creature est posee.  La piece est grande et vide comme une arene de combat. 
 
 I88 : Vous foncez vers le Minotaure en brandissant votre arme, mais celui ci vous donne un coup de hache violemment. Votre corps se faire projeter contre le mur. Vous mourrez directement
 
-I89 : Vous essayez de contourner le Minotaure et essayez de l'attaquer par derrière. Celui-ci a un bon odorant et vous voit venir. Vous bondissez sur le Minotaure mais celui-ci vous découpe en deux avec sa hache. 
+I89 : Vous essayez de contourner le Minotaure et essayez de l'attaquer par derriere. Celui-ci a un bon odorant et vous voit venir. Vous bondissez sur le Minotaure mais celui-ci vous decoupe en deux avec sa hache. 
 
-I90 : Vous tirez sur le fil magique et le Minotaure vous voit. Il se redresse, prend sa hache et fonce droit vers vous, tête baissée,en prenant de la vitesse. Vous n'avez pas d'issues...\n En fonçant vers vous, un vaillant homme vient de derrière vous en courant vers le Minotaure et passe par en dessous de lui en tranchant ses tendons. " Merci de m'avoir appelé, jeune homme. Dit Thésée. Maintenant, c'est à moi de l' éliminer. Pour le peuple d'Athènes !"
+I90 : Vous tirez sur le fil magique et le Minotaure vous voit. Il se redresse, prend sa hache et fonce droit vers vous, tete baissee,en prenant de la vitesse. Vous n'avez pas d'issues...\n En fonçant vers vous, un vaillant homme vient de derriere vous en courant vers le Minotaure et passe par en dessous de lui en tranchant ses tendons. " Merci de m'avoir appele, jeune homme. Dit Thesee. Maintenant, c'est a moi de l' eliminer. Pour le peuple d'Athenes !"
 
-I91 : Bravo ! Vous avez réussi à vous protéger, c'était moins une. Thésée profite pour couper le deuxième tendon de sa cheville. Le Minotaure ne peut plus courir et se déplacer. Il est vulnérable ! Vous êtes obligé de l'attaquer (Combat)
+I91 : Bravo ! Vous avez reussi a vous proteger, c'etait moins une. Thesee profite pour couper le deuxieme tendon de sa cheville. Le Minotaure ne peut plus courir et se deplacer. Il est vulnerable ! Vous etes oblige de l'attaquer (Combat)
 
-I92 : Avec un acte brave et héroïque, Thésée monte sur le dos du Minotaure, bondit avec son épée et transperce le haut de son crâne , tel un pique venant du ciel, jusqu'à atteindre la gorge de la créature. Celui - saigne et crie de douleurs et finit par avoir ses deux genoux au sol. Thésée retire l'épée de son crâne, descend de son dos et se place face à la créature . Il tient la tête du Minotaure  avec sa main et lui assène le coup final dans le coeur, en lui disant : " Ceci ... c'est pour tous mes frères d'armes que tu as tués " . Il planta son épée tel un lion affamé et ressort vainqueur du combat ! Bien joué ! vous avez abattu le Minotaure !
+I92 : Avec un acte brave et heroique, Thesee monte sur le dos du Minotaure, bondit avec son epee et transperce le haut de son crane , tel un pique venant du ciel, jusqu'a atteindre la gorge de la creature. Celui - saigne et crie de douleurs et finit par avoir ses deux genoux au sol. Thesee retire l'epee de son crane, descend de son dos et se place face a la creature . Il tient la tete du Minotaure  avec sa main et lui assene le coup final dans le coeur, en lui disant : " Ceci ... c'est pour tous mes freres d'armes que tu as tues " . Il planta son epee tel un lion affame et ressort vainqueur du combat ! Bien joue ! vous avez abattu le Minotaure !
  
-I93 : Malheureusement, il arrive à passer votre défense et vous découpe la tête d'une traite. Thésée finit aussi pas se faire trancher par la hache et finit par mourir...
+I93 : Malheureusement, il arrive a passer votre defense et vous decoupe la tete d'une traite. Thesee finit aussi pas se faire trancher par la hache et finit par mourir...
 
-I94: " Bien joué, l'ami. Tu m'as sauvé. Sans toi , je n'aurai sûrement pas pu achever le Minotaure. Sa force est démesurée. Le peuple d'Athène te sera éternellement reconnaissant. Tu l'as sauvé d'une terrible tribu. Désormais avec le fil qu'Ariane m'a donné, nous allons pouvoir sortir de ce labyrinthe. Ce fil retrace tous les endroits par où je suis passé. Il suffit de retracer le fil par là où je suis passé pour sortir ".
+I94: " Bien joue, l'ami. Tu m'as sauve. Sans toi , je n'aurai surement pas pu achever le Minotaure. Sa force est demesuree. Le peuple d'Athene te sera eternellement reconnaissant. Tu l'as sauve d'une terrible tribu. Desormais avec le fil qu'Ariane m'a donne, nous allons pouvoir sortir de ce labyrinthe. Ce fil retrace tous les endroits par où je suis passe. Il suffit de retracer le fil par la où je suis passe pour sortir ".
 
-I95: Vous suivez Thésée jusqu'à la sortie et vous voyez enfin l'extérieur de ce labyrinthe. La sortie mène vers la mer.La mer est agitée avec de grandes vagues, un temps pluvieux, et des éclairs. Les Dieux sont en colère... Une petite barque est accostée près de la sortie avec un petit embarcadère pour bateau. Thésée et vous, prenez la barque et partez de ce labyrinthe. Vous prenez petit à petit de la distance, soulagé que tout ça soit fini ....
+I95: Vous suivez Thesee jusqu'a la sortie et vous voyez enfin l'exterieur de ce labyrinthe. La sortie mene vers la mer.La mer est agitee avec de grandes vagues, un temps pluvieux, et des eclairs. Les Dieux sont en colere... Une petite barque est accostee pres de la sortie avec un petit embarcadere pour bateau. Thesee et vous, prenez la barque et partez de ce labyrinthe. Vous prenez petit a petit de la distance, soulage que tout ça soit fini ....
 
-I96: Vous assassinez Thésée dans le dos... Vous l'avez trahi ! " Tu n'as donc pas de coeur ! Je t'ai fait confiance, traître ! Voilà que tu me poignardes dans le dos ! Mon père , le roi d'Athène, te trouvera et t'assassineras ! Tu vas le payer cher ! ". Vous lui cassez la bouche avec votre arme et vous sortez de ce labyrinthe en utilisant le fil accroché au pied de Thésée. Une petite barque vous attend.\n
+I96: Vous assassinez Thesee dans le dos... Vous l'avez trahi ! " Tu n'as donc pas de coeur ! Je t'ai fait confiance, traître ! Voila que tu me poignardes dans le dos ! Mon pere , le roi d'Athene, te trouvera et t'assassineras ! Tu vas le payer cher ! ". Vous lui cassez la bouche et vous sortez de ce labyrinthe en utilisant le fil accroche au pied de Thesee. Une petite barque vous attend.\n
 
-I97 : Vous arrivez à Athènes et réussissez à avoir une audience avec le roi. Vous lui annoncez la triste nouvelle de la mort de son fils et lui expliquez qu'il a donné vaillamment sa vie pour pouvoir vaincre le Minotaure. Le roi vous remercie et vous est reconnaissant pour lui avoir annoncé la nouvelle et raconté les récits héroïques de son fils. De grandes funérailles sont faites pour Thésée.  Le roi vous prend sous son aile, et vous traite comme un prince. Au bout de quelques années, vous devenez roi d'Athènes et régnez sur la grèce entière ...
+I97 : Vous arrivez a Athenes et reussissez a avoir une audience avec le roi. Vous lui annoncez la triste nouvelle de la mort de son fils et lui expliquez qu'il a donne vaillamment sa vie pour pouvoir vaincre le Minotaure. Le roi vous remercie et vous est reconnaissant pour lui avoir annonce la nouvelle et raconte les recits heroiques de son fils. De grandes funerailles sont faites pour Thesee.  Le roi vous prend sous son aile, et vous traite comme un prince. Au bout de quelques annees, vous devenez roi d'Athenes et regnez sur la grece entiere ...
+
+I98 : null
+
+I99 : Vous avez reçu l’Amulette d’Oedipe !
+
+I100 : Vous avez reçu le fil d’Ariane !
+
+I101 : Vous n’avez pas de fil magique :\
+
+I102 : Vous continuez votre route quand soudain, vous rencontrez un homme en train de voler avec des ailes accrochées à ses sandales. C’est Hermès, le messager de Zeus. “ Ah ! Te voilà ! je t’attendais. Alors comme ça, cela fait à peine quelques heures que tu es ici et que tu me causes déjà des soucis. Bon sang, bon sang …\nLe Dieu tout-puissant a vu tes actes depuis là-haut. Il  avait des projets pour Dédale et Icare mais voilà que tu les brises. Hélas, il m’a dit de réparer mes conneries. Voilà que c’est ma faute ! Pfff... Maintenant, je dois nettoyer derrière lui. C’est toujours comme ça avec mon père ...“ 
+
+I103 : Hermès s’élance vers vous avec une telle vitesse que vous avez à peine le temps de le voir venir. (Combat)
+
+I104 : Vous parvenez à l’attaquer avant qu’il vienne à vous et le tuez en un coup. Bien joué ! Vous avez été chanceux.
+
+I105 : Vous avez reçu les Sandales d'Hermès !
+
+I106 : Vous tentez de l’attaquer...
+
+I107 : Hélas, vous n’avez ni ailes ni arc ! Ce dernier fonce vers vous et vous décapite la tête avec une précision divine ! Vous mourrez ...
+
+I108 : Vous êtes déjà passé par là ...
+
+I109 : Vous êtes déjà passé par là ...
 
 D1 : Si tu as bien compris dis moi OUI, sinon NON :\n1.Oui\n2.Non\n(Choisissez entre 1 ou 2);
 
-D2 : Je te laisse le choix entre trois armes. Chaque arme possède des attributs spéciaux. Lequel choisis tu :\n1.Epee\n2.Lance\n3.Arc;
+D2 : Je te laisse le choix entre trois armes. Chaque arme possede des attributs speciaux. Lequel choisis tu :\n1.Epee\n2.Lance\n3.Arc;
 
-D3 : Une araignée géante tombe du plafond. Elle à l'air agressive . Que faites vous ...\n1.S'approcher calmement pour voir s'il est inoffensif.\n2.Se rapprocher et lui donner un coup. \n3.Essayer de l'attaquer en prenant de la distance.\n
+D3 : Une araignee geante tombe du plafond. Elle a l'air agressive . Que faites vous ...\n1.S'approcher calmement pour voir s'il est inoffensif.\n2.Se rapprocher et lui donner un coup. \n3.Essayer de l'attaquer en prenant de la distance.\n
 
-D4 : GAUCHE : Un couloir bien éclairé avec des tableaux de monarques de part et d'autres des murs et un tapis rouge sur le sol qui mène jusqu'au bout du couloir.\nDROITE : Un couloir sombre qui vous à l'air de mener vers un lieu qui a l'air d'être éclairé par la lumière naturelle du soleil.\n1.GAUCHE\n2.DROITE
+D4 : GAUCHE : Un couloir bien eclaire avec des tableaux de monarques de part et d'autres des murs et un tapis rouge sur le sol qui mene jusqu'au bout du couloir.\nDROITE : Un couloir sombre qui vous a l'air de mener vers un lieu qui a l'air d'etre eclaire par la lumiere naturelle du soleil.\n1.GAUCHE\n2.DROITE
 
-D5 : ENIGME : quel être, pourvu d'une seule voix, a d'abord quatre jambes le matin, puis deux jambes à midi, et trois jambes le soir ?\n\nRéponse Enigme :\n1. la chimère\n2. le singe\n3.la tortue\n4. l'homme\n5. Le serpent\n6. Le démon
+D5 : ENIGME : quel etre, pourvu d'une seule voix, a d'abord quatre jambes le matin, puis deux jambes a midi, et trois jambes le soir ?\n\nReponse Enigme :\n1. la chimere\n2. le singe\n3.la tortue\n4. l'homme\n5. Le serpent\n6. Le demon
 
-D6 : Le vieil homme se lève de son trône, descend les marches et s'approche de vous lentement (Il a l'air affamée) : \n"Je vois ... vous êtes pareil que moi. Vous avez été puni par les dieux. Venez ! Tenez ma main histoire que je vous en dise plus !"\n\nQue faites vous :\n1.Lui tendre la main\n2.Refuser et ne rien dire\n3.Attaquer les soldats\n4.Essayer de s'enfuir
+D6 : Le vieil homme se leve de son trone, descend les marches et s'approche de vous lentement (Il a l'air affamee) : \n"Je vois ... vous etes pareil que moi. Vous avez ete puni par les dieux. Venez ! Tenez ma main histoire que je vous en dise plus !"\n\nQue faites vous :\n1.Lui tendre la main\n2.Refuser et ne rien dire\n3.Attaquer les soldats\n4.Essayer de s'enfuir
 
-D7: Vous voyez que le couloir se sépare en deux chemins. Où allez vous :\n1. GAUCHE\n2. DROITE\n3.TOUT DROIT
+D7: Vous voyez que le couloir se separe en deux chemins. Où allez vous :\n1. GAUCHE\n2. DROITE\n3.TOUT DROIT
 
-D8 : Une porte se trouve au bout du couloir mais elle est fermée. Une statue en pierre d'un dieu (Dionysos) présentant un calice se tient à côté de la porte. \n1. Coupez votre main et y verser du sang \n2. Verser du vin dans le calice.
+D8 : Une porte se trouve au bout du couloir mais elle est fermee. Une statue en pierre d'un dieu (Dionysos) presentant un calice se tient a cote de la porte. \n1. Coupez votre main et y verser du sang \n2. Verser du vin dans le calice.
 
-D9 : Vous apercevez une arme dans le fourreau qu'avait le roi (Épée d'Achille). Voulez vous échangez cette arme avec votre arme actuel : \n1.Oui \n2.Non
+D9 : Vous apercevez une arme dans le fourreau qu'avait le roi (epee d'Achille). Voulez vous echangez cette arme avec votre arme actuel : \n1.Oui \n2.Non
 
-D10: Vous voyez un centaure (mi homme, mi cheval) avec un arc de l'autre côté du pont. Une flèche atterrit à côté de vous. Il a l'air d'être agressif. Le centaure s'apprête à traverser le pont en courant.\n\nQue faites vous :\n1.Essayer de l'attaquer\n2.Attendre qu'il vienne.\n3.Trouver un abri en se cachant dans la forêt
+D10: Vous voyez un centaure (mi homme, mi cheval) avec un arc de l'autre cote du pont. Une fleche atterrit a cote de vous. Il a l'air d'etre agressif. Le centaure s'apprete a traverser le pont en courant.\n\nQue faites vous :\n1.Essayer de l'attaquer\n2.Attendre qu'il vienne.\n3.Trouver un abri en se cachant dans la foret
 
-D11 : Vous trouvez un abri attendant que le centaure vienne à vous mais vous devez choisir une cachette. Que choisissez-vous :\n1.Derrière un arbre\n2.Au dessus d'un arbre pour le surprendre\n3.Dans un buisson\nDerrière un rocher
+D11 : Vous trouvez un abri attendant que le centaure vienne a vous mais vous devez choisir une cachette. Que choisissez-vous :\n1.Derriere un arbre\n2.Au dessus d'un arbre pour le surprendre\n3.Dans un buisson\nDerriere un rocher
 
-D12 : Vous traversez le pont et entrez dans la maison discrètement. Vous sentez une forte odeur d'alcool. Un Dieu ivre (Dionysos)  y est en train de dormir sur sa chaise. Vous voyez aussi une dague à côté de lui. Que faites vous : \n1.Le poignarder et lui couper la tête\n2.Le réveiller 
+D12 : Vous traversez le pont et entrez dans la maison discretement. Vous sentez une forte odeur d'alcool. Un Dieu ivre (Dionysos)  y est en train de dormir sur sa chaise. Vous voyez aussi une dague a cote de lui. Que faites vous : \n1.Le poignarder et lui couper la tete\n2.Le reveiller 
 
-D13 : Vous le réveillez en lui tapant l'épaule. Il garde les yeux fermés et crie. " Bon sang ! Laissez-moi dormir ! ". Vous lui tapez l'épaule encore une fois. Il reprend conscience et lève les yeux vers vous et dit d'un ton festif : " Oh, un ami avec qui festoyer. Qui êtes-vous donc ? Enfin peu importe,ça ne m'intéresse pas. Vous avez l'air d'être un bon l'ami ! Levez-donc un verre avec moi ! ". Il sort une bouteille de vin et sert deux verres. Il tend un verre à vous. Que faites vous\n1.Le boire\n2.Ne pas boire
+D13 : Vous le reveillez en lui tapant l'epaule. Il garde les yeux fermes et crie. " Bon sang ! Laissez-moi dormir ! ". Vous lui tapez l'epaule encore une fois. Il reprend conscience et leve les yeux vers vous et dit d'un ton festif : " Oh, un ami avec qui festoyer. Qui etes-vous donc ? Enfin peu importe,ça ne m'interesse pas. Vous avez l'air d'etre un bon l'ami ! Levez-donc un verre avec moi ! ". Il sort une bouteille de vin et sert deux verres. Il tend un verre a vous. Que faites vous\n1.Le boire\n2.Ne pas boire
 
-D14 : Vous retournez au dernier couloir où les chemins se séparent. Où allez vous:\n1.Tout droit\n2.A droite
+D14 : Vous retournez au dernier couloir où les chemins se separent. Où allez vous:\n1.Tout droit\n2.A droite
 
-D15 : Le vieil homme vous aperçoit, prend sa dague et vous menace avec son arme en criant : "Qui êtes-vous ?! Que voulez-vous ? Est-ce les dieux qui vous envoient pour nous tuer ? " \n1: Montrez que vous êtes inoffensif en lâchant votre arme\n2: Lui montre la cire que vous avez\n3: Essayer de le tuer et arracher les ailes d'Icare
+D15 : Le vieil homme vous aperçoit, prend sa dague et vous menace avec son arme en criant : "Qui etes-vous ?! Que voulez-vous ? Est-ce les dieux qui vous envoient pour nous tuer ? " \n1: Montrez que vous etes inoffensif en lachant votre arme\n2: Lui montre la cire que vous avez\n3: Essayer de le tuer et arracher les ailes d'Icare
 
-D16 :J'ai conçu pour mon fils ,Icare, des ailes. Je veux ce qu'il y a de mieux pour mon fils. Aidez-moi à le faire sortir et je vous aiderai en retour. Avec la cire, mon fils pourra sortir de ce lieu et voler au- dessus de ses murs. Donnez la moi, et je pourrais aussi fabriquer des ailes pour vous.\n1.Lui donner la cire\n2.Poignarder Dédale et arracher les ailes d'Icare
+D16 :J'ai conçu pour mon fils ,Icare, des ailes. Je veux ce qu'il y a de mieux pour mon fils. Aidez-moi a le faire sortir et je vous aiderai en retour. Avec la cire, mon fils pourra sortir de ce lieu et voler au- dessus de ses murs. Donnez la moi, et je pourrais aussi fabriquer des ailes pour vous.\n1.Lui donner la cire\n2.Poignarder Dedale et arracher les ailes d'Icare
 
-D17 : Dédale vous regarde avec colère et dit : " Vous ! Vous, êtes responsables de la mort de mon fils ! C'est votre faute, c'est à cause de vous que mon fils est mort ! Vous êtes l'origine de ce mal ! ".\nQue faites vous :\n1.Essayer de le calmer\n2.fuir\n3.Tuer Dédale
+D17 : Dedale vous regarde avec colere et dit : " Vous ! Vous, etes responsables de la mort de mon fils ! C'est votre faute, c'est a cause de vous que mon fils est mort ! Vous etes l'origine de ce mal ! ".\nQue faites vous :\n1.Essayer de le calmer\n2.fuir\n3.Tuer Dedale
 
-D18 : Vous arrivez à un embranchement avec plusieurs couloirs. Où allez vous ?: \n1.GAUCHE \n2.TOUT DROIT
+D18 : Vous arrivez a un embranchement avec plusieurs couloirs. Où allez vous ?: \n1.GAUCHE \n2.TOUT DROIT
 
-D19: Face à cette situation, vous devez prendre une décision, que décidez vous de faire ? :\n1.Liberer la femme\n2.Ne rien faire et continuer la route.\n3.La tuer tant qu'elle est attachée. 	
+D19: Face a cette situation, vous devez prendre une decision, que decidez vous de faire ? :\n1.Liberer la femme\n2.Ne rien faire et continuer la route.\n3.La tuer tant qu'elle est attachee. 	
 
-D20:Vous continuez votre route, quand soudain, vous entendez un bruit. Vous vous retournez et vous voyez face a vous un immense Loup Garou, c'était la femme qui venez de se transformer. Que faites-vous ?\n1.Essayer de la calmer\n2.L'attaquer.
+D20:Vous continuez votre route, quand soudain, vous entendez un bruit. Vous vous retournez et vous voyez face a vous un immense Loup Garou, c'etait la femme qui venez de se transformer. Que faites-vous ?\n1.Essayer de la calmer\n2.L'attaquer.
 
-D21: La pièce contient trois issues mais vous avez le choix. Que choisissez vous :\n1.GAUCHE\n2.TOUT DROIT\n3.DROITE
+D21: La piece contient trois issues mais vous avez le choix. Que choisissez vous :\n1.GAUCHE\n2.TOUT DROIT\n3.DROITE
 
-D22: Aide moi à le trouver et à achever ce Minotaure. Cela fait trop longtemps qu'il asservit le peuple d'Athènes et en échange, je pourrais te faire sortir de ce labyrinthe.Je vais te donner un bout du fil accroché à mon pied. Si tu vois le Minotaure, tire sur ce fil et je viendrais t'aider :\n1.Accepter de prendre le fil\n2.Refuser
+D22: Aide moi a le trouver et a achever ce Minotaure. Cela fait trop longtemps qu'il asservit le peuple d'Athenes et en echange, je pourrais te faire sortir de ce labyrinthe.Je vais te donner un bout du fil accroche a mon pied. Si tu vois le Minotaure, tire sur ce fil et je viendrais t'aider :\n1.Accepter de prendre le fil\n2.Refuser
 
 D23 : Que faites vous :\n1.L'attaquer de front\n2.Le contourner et l'attaquer par surprise\n3.Tirer sur le Fil magique
 
-D24 : Le Minotaure arrive derrière vous. Vous à peine le temps de réagir : Que faites vous ?\n1.Esquiver\n2.Bloquer\n3.Parer
+D24 : Le Minotaure arrive derriere vous. Vous a peine le temps de reagir : Que faites vous ?\n1.Esquiver\n2.Bloquer\n3.Parer
 
-D25 : "La fin est presque 	devant nous. Je suis étonné que tu aies survécu jusque là. Tes décisions t'ont mené jusqu'ici et c'est par la force de tes décisions que tu as façonné ton destin. Es-tu prêt à sortir ? C'est la moindre des choses que de t'attendre" : \n1.Suivre Thésée jusqu'à la sortie\n2.Tuer Thésée et sortir en utilisant le fil.
+D25 : "La fin est presque 	devant nous. Je suis etonne que tu aies survecu jusque la. Tes decisions t'ont mene jusqu'ici et c'est par la force de tes decisions que tu as façonne ton destin. Es-tu pret a sortir ? C'est la moindre des choses que de t'attendre" : \n1.Suivre Thesee jusqu'a la sortie\n2.Tuer Thesee et sortir en utilisant le fil.
 
-C1 : Elle s'enfuit de douleur vous laissant le passage pour la suite. Bien joué
+D26 : Hermès prend de la hauteur avec ses sandales et s’apprête à attaquer. Que faites-vous :\n1.L’attaquer avant qu’il attaque \n2.Attendre qu’il vienne pour contre-attaquer.
+
+C1 : Elle s'enfuit de douleur vous laissant le passage pour la suite. Bien joue
 
 C2 : Un des gardes vous blesse. Mais vous essayez ensuite d'attaquer les autres gardes ainsi que le roi.
 
 C3 : Vous vous ruez brusquement vers lui en lui donnant un coup avec votre arme.
 
+C4 : null
+
 T1 : GAME OVER
 
-T2 : Bravo ! Vous avez terminé le jeu ! 
+T2 : Bravo ! Vous avez termine le jeu ! 

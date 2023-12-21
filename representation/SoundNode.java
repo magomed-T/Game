@@ -8,6 +8,7 @@ public class SoundNode extends DecorateurNode{
 
     private String fileName;
     private float volume;
+    // Joue le son donnée par le chemin du fichier avec un volume fixé.
     public static void playAudio(String filePath,float volume){
         try{
 
@@ -48,9 +49,10 @@ public class SoundNode extends DecorateurNode{
         this.fileName= fileName;
         this.volume = volume;
     }
-
+    @Override
     public void display(){
         String filePath = "representation/Sons/"+this.fileName ;
-        playAudio(filePath,this.volume);
+        playAudio(filePath,this.volume); // Volume autorisé de : 
+        super.display();
     }
 }

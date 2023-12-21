@@ -1,13 +1,14 @@
 package representation;
 import java.util.Scanner;
+
+import Autres.Lecture;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import univers.Artefactes.Artefacte;
 import univers.Personnages.Mortels.Heros;
 import univers.PersonnageDeBase;
 import univers.Objets.Objet;
-import univers.Artefactes.Artefacte;
 import univers.Armes.Arme;
 public class DecisionNode extends InnerNode {
     private int decision;
@@ -15,10 +16,6 @@ public class DecisionNode extends InnerNode {
     private List<List<Integer>> allStatsMin = new ArrayList<>();
     private List<List<Integer>> nextChoice = new ArrayList<>();
     //private List<Objet> itemKeys = new ArrayList<>();
-
-    public DecisionNode(String description,Node n1,Node n2,Node n3,Node n4){
-        super(description,n1,n2,n3,n4);
-    }
 
     public DecisionNode(String description){
         super(description);
@@ -44,34 +41,18 @@ public class DecisionNode extends InnerNode {
     */
 
     public void Decision(){
-        Scanner sc = new Scanner(System.in);
-        boolean isCorrect;
         if (nbOfDecision == 0)
             nbOfDecision = nodes.size();
-        do{
-            isCorrect = false;
-            System.out.print("\nDECISION : ");
-            try{
-            this.decision = sc.nextInt();
-            //System.out.println("nbOfDecision : " +nbOfDecision);
-            if (decision > nbOfDecision || decision<1)
-                throw new IllegalArgumentException();
-            }
-            catch(Exception e){
-                System.out.println("\nCARACTERE INVALIDE:\nEntrez un entier parmi les reponses proposés...\n");
-                isCorrect = true;
-                sc.nextLine();
-            }  
-        }while(isCorrect);
+        this.decision = Lecture.reponseInt(nbOfDecision);
     }
 
     public int NextConditionUnderDecision(int decision, int condition){
         //System.out.println("Je suis dans NextConditionUnderDecision");
-        if (!(this.personnages[0] instanceof Heros)){
+        if (!(this.personnages.get(0) instanceof Heros)){
             System.out.println("Probleme : Il y a pas d'heros dans le node");
             return -1;
         }
-        Heros heros = (Heros) this.personnages[0] ;
+        Heros heros = (Heros) this.personnages.get(0) ;
         
         if(condition == 1){
             Arme HerosArme = heros.getArme();
@@ -114,16 +95,18 @@ public class DecisionNode extends InnerNode {
 
     @Override
     public void callAction(){
-        Heros heros = (Heros) this.personnages[0];
+        Heros heros = (Heros) this.personnages.get(0);
         // Choix de prendre une arme parmi les decisions
         if (this.action ==1){
-            heros.setArme(this.armes[decision-1]);
+            heros.setArme(this.armes.get(decision-1));
         }
         // Choix de garder l'arme actuelle ou de changer
         if (this.action ==2){
             if(this.decision == 1)
-                heros.setArme(this.armes[0]);
+                heros.setArme(this.armes.get(0));
         }
+
+        if (this.action == 3)
         return;
     }
 
