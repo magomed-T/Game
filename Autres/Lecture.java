@@ -23,7 +23,7 @@ import univers.Personnages.Heros;
  */
 
 public class Lecture {
-    /** Liste pour stocker si un noeud est interne */
+    /** Liste pour stocker si un noeud est InnerNode */
     protected static List<Boolean> isInner = new ArrayList<>();
      /**Liste pour stocker si un noeud est une décision.*/
     protected static List<Boolean> isDeci = new ArrayList<>();
@@ -33,25 +33,22 @@ public class Lecture {
      *
      * @param lien Le chemin du fichier à lire.
      * @return Une liste de lignes lues depuis le fichier.
+     * @throws Exception si il y a un problème dans lecture dans lireFichier
      */
-    public static List<String> lireFichier(String lien) {
+    public static List<String> lireFichier(String lien) throws Exception{
         List<String> lignes = new ArrayList<>();
-        try (BufferedReader fichier = new BufferedReader(new FileReader(new File(lien)))){
-            String line;
+        BufferedReader fichier = new BufferedReader(new FileReader(new File(lien)));
+        String line;
+        
+        while((line =fichier.readLine()) != null) {
+            line = line.trim().replace("\\n","\n");
+            if (line.equals(""))  
+                continue;  
+            //System.out.println(line);
+            lignes.add(line);
             
-            while((line =fichier.readLine()) != null) {
-                line = line.trim().replace("\\n","\n");
-                if (line.equals(""))  
-                    continue;  
-                //System.out.println(line);
-                lignes.add(line);
-                
-            }
-        }catch (IOException e) {
-            e.printStackTrace();
         }
         return lignes;
-
     }
 
     /**
@@ -88,9 +85,10 @@ public class Lecture {
      *
      * @param lien Le chemin du fichier à lire.
      * @return Une map contenant les noeuds créés avec les titres comme clés.
+     * @throws Exception si il y a un problème dans lecture dans lireFichier
      */
 
-    public static Map<String,Node> CreateNodeMap(String lien){
+    public static Map<String,Node> CreateNodeMap(String lien) throws Exception{
         List<String> lignes = lireFichier(lien);
         List<String> keys = new ArrayList<>();
         List<Node> allNodes = new ArrayList<>();
@@ -118,8 +116,9 @@ public class Lecture {
      *
      * @param lien Le chemin du fichier à lire.
      * @return Une map contenant les relations entre les noeuds avec les titres comme clés.
-     */
-    public static Map<String,List<String>> CreateNodeNextMap(String lien){
+     * @throws Exception si il y a un problème dans lecture dans lireFichier
+     * */
+    public static Map<String,List<String>> CreateNodeNextMap(String lien) throws Exception{
         List<String> lignes = lireFichier(lien);
         List<String> keys = new ArrayList<>();
         List<List<String>> values = new ArrayList<>();
@@ -157,17 +156,9 @@ public class Lecture {
                 throw new IllegalArgumentException();
             }
         }
-        catch(IllegalArgumentException e){
-            System.out.println("ERREUR:");
-            System.out.println("nbkeys:" + keys.size() + " keys :" + keys);
-            System.out.println("nbvalues : " + values.size());
-            System.out.println("Problème de taille");
+        catch(Exception e){
+            System.out.println("ERREUR: Problème dans la création de Map ( Taille de listes différentes)");
         }
-        /* 
-        System.out.println("nbkeys:" + keys.size() );
-        System.out.println("nbvalues : " + values.size());
-        System.out.println(" keys :" + keys);
-        */
         
         Map<K, V> map = new HashMap<>();
         for (int i = 0; i < keys.size(); i++) {

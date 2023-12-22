@@ -5,9 +5,15 @@ import univers.Element;
  * La classe Arc représente un arc, un type d'arme, dans un univers.
  * Les arcs ont une attaque faible, une portée forte et une précision moyenne.
  * */
-
 public class Arc extends Arme{
-    //Arme ayant Attaque FAIBLE, Portee FORTE, Precision MOYEN (attaque les adversaires de type VOL) 
+     /**
+     * Constructeur pour créer une épée avec un nom, des valeurs d'attaque, de portée et de précision.
+     *
+     * @param Nom       Le nom de l'épée.
+     * @param attaque   La valeur d'attaque de l'épée (0 à 50).
+     * @param portee    La valeur de portée de l'épée (0 à 50).
+     * @param precision La valeur de précision de l'épée (0 à 50).
+     */
     public Arc(String Nom, int attaque, int portee, int precision){
         super(Nom,attaque,portee,precision);
     }

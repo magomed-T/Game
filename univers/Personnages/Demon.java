@@ -34,7 +34,9 @@ public class Demon extends Monstre implements Enfer{
         this.Elems = Elems;
     }
 
-    
+    /**
+     * Permet d'être invulnérable pendant un tour.
+     */
     public void Intimider(){
         return;
     }

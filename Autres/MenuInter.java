@@ -14,6 +14,7 @@ import univers.Combattant;
 import univers.Element;
 import univers.Armes.Arme;
 import univers.Interfaces.Divin;
+import univers.Personnages.Demon;
 import univers.Personnages.Divinite;
 import univers.Personnages.Heros;
 /**
@@ -38,15 +39,12 @@ public class MenuInter{
 	public static void sauvegarder(Node node){
 		try{
 			Scanner sc = new Scanner(System.in);
-			String cheminRepertoire = "Autres/Sauvegarde";
-			//File repertoire = new File(cheminRepertoire);
-			//String[] sauvegardes = repertoire.list();
-			System.out.println("\nNom des sauvegardes :");
+			System.out.println("\nNom de la sauvegarde :");
 			
 			String saveName = sc.nextLine();
 			System.out.println("\nPARTIE SAUVEGARDEE\n");
 			ObjectOutputStream oos;
-			oos = new ObjectOutputStream( new FileOutputStream(new File("Autres/Sauvegarde/sauvegarde"+ saveName + ".txt")));	
+			oos = new ObjectOutputStream( new FileOutputStream(new File("Autres/Sauvegarde/"+ saveName + ".txt")));	
 			oos.writeObject(node);
 			oos.close();
 		}
@@ -68,25 +66,30 @@ public class MenuInter{
             System.out.println("-------------");
             System.out.println("Voici le Menu");
             System.out.println("-------------");
-            System.out.println("Tapez 0 pour quitter le programme");
-            System.out.println("Tapez 1 pour lancer une nouvelle partie");
-            System.out.println("Tapez 2 pour reprendre une sauvegarde");
+            System.out.println("Tapez 1 pour quitter le programme");
+            System.out.println("Tapez 2 pour lancer une nouvelle partie");
+            System.out.println("Tapez 3 pour reprendre une sauvegarde");
             System.out.println();
             System.out.println("Tapez votre reponse");
-            rep = sc.nextInt();
-            if (rep == 0) {
+            rep = Lecture.reponseInt(3);
+            if (rep == 1) {
                 System.out.println("Fin du programme.");
-            } else if (rep == 1) {
-				Introduction((Heros) nodeMap.get("I1").getPersonnages().get(0));
-                NodeF.Execute(nodeMap.get("I98"),sc);
-				break;
             } else if (rep == 2) {
-                ChargerSauvegarde(nodeMap);
+				Introduction((Heros) nodeMap.get("I1").getPersonnages().get(0));
+				NodeF.Execute(nodeMap.get("I1"),sc);
 				break;
+            } else if (rep == 3) {
+				try{
+					ChargerSauvegarde(nodeMap);
+					break;
+				}
+				catch(IllegalArgumentException e){System.out.println("Aucune partie sauvegardée.");}
+				catch(Exception e){System.out.println("ERREUR : Chemin de la  sauvegarde introuvable");}
+				
             } else {
                 System.out.println("Choix invalide. Veuillez réessayer.");
             }
-        }while(rep != 0);
+        }while(rep != 1);
             
     }
 
@@ -97,21 +100,23 @@ public class MenuInter{
      * @param nodeMap Une carte de nœuds associés à des chaînes de caractères.
      */
 
-	public static void ChargerSauvegarde(Map<String,Node> nodeMap){
+	public static void ChargerSauvegarde(Map<String,Node> nodeMap) throws IllegalArgumentException,Exception{
 		Scanner sc = new Scanner(System.in);
-
 		// Afficher les sauvegardes
 		String cheminRepertoire = "Autres/Sauvegarde";
 		File repertoire = new File(cheminRepertoire);
+		String[] sauvegardes = repertoire.list();
+		if(sauvegardes.length == 0){
+			throw new IllegalArgumentException();
+			}
 		System.out.println("\nNom des sauvegardes :");
 		int i = 1;
-		String[] sauvegardes = repertoire.list();
 		for (String element : sauvegardes) {
 			System.out.println(i+"." + element);
 			i+=1;
 		}
 		System.out.print("\nChoix de la sauvegarde : ");
-		int numSauvegarde = sc.nextInt();
+		int numSauvegarde = Lecture.reponseInt(sauvegardes.length);
 		System.out.println("\n");
 
 		//Charger la sauvegarde
@@ -152,53 +157,67 @@ public class MenuInter{
 		int rep;
 		int nbVie=heros.getVie();
 		int nbVie_ad=adversaire.getVie();
+		int value;
 		System.out.println(adversaire +"\n");
 		boolean isDivin = false;
+		boolean isDemon = false;
+		boolean hasCompetence = true;
 		Double coeffDivin = 0.;
+		Double coeffDemon = 0.;
 		if (adversaire instanceof Divin){
 			coeffDivin = ((Divinite) adversaire).getCoeffDivin();
 			isDivin = true;
 		}
+		if (adversaire instanceof Demon){
+			coeffDemon = 0.3;
+			isDemon = true;
+		}
+
 		Element[] ElemAd = adversaire.getElems();
 		Element ElemArme = heros.getArme().getElem();
 		System.out.println("COMBAT :");
 		do {
+			value = 0;
 			//System.out.println("\nChoississez");
 			System.out.println("Tapez 1 pour : Attaque");
 			System.out.println("Tapez 2 pour : Brise-Garde");
 			System.out.print("Tapez 3 pour : Defense");
-			nbAlea= random.nextInt(3);
-			nombreAleatoire = random.nextDouble();
 			rep = Lecture.reponseInt(3);
 			rep -=1;
+			nbAlea= random.nextInt(3);
+			nombreAleatoire = random.nextDouble();
 			System.out.println("L'adversaire choisi son attaque ...\n");
 			try{Thread.sleep(1000);}catch(Exception e){e.printStackTrace();};
 
 			if ((rep==0 && nbAlea==1) || (rep == 1 && nbAlea==2) ||(rep ==2 && nbAlea==0)) {
-		        System.out.println("Votre adversaire a choisi "+choix[nbAlea]+" :vous avez gagné");
+		        System.out.println("Votre adversaire a choisi "+choix[nbAlea]+" : GAGNE");
 
 		        if (coutCritique < nombreAleatoire || Arme.CycleElems(ElemArme,ElemAd) ) {
 					//System.out.println("isElem : " + Arme.CycleElems(ElemArme,ElemAd));
 		        	System.out.println("Vous avez fait un coup critique : l'adversaire perd deux vies");
 					if (nbVie_ad == 1)
-		        		nbVie_ad=nbVie_ad - 1;
+		        		value = 1;
 					else
-						nbVie_ad=nbVie_ad - 2;
+						value = 2;
 		        }else {
-		        	nbVie_ad=nbVie_ad - 1;
+		        	value = 1;
 		        }
-		        
+		        nbVie_ad = nbVie_ad - value;
 			}else if ((rep==0 && nbAlea==2) || (rep == 1 && nbAlea==0) || (rep==2 && nbAlea==1)) {
-				System.out.println("Votre adversaire a choisi "+choix[nbAlea]+" :vous avez perdu");
+				System.out.println("Votre adversaire a choisi "+choix[nbAlea]+" : PERDU");
 				nbVie=nbVie - 1;
 			
 			}else if (rep==nbAlea) {
-				System.out.println("Egalité");
+				System.out.println("Votre adversaire a choisi "+choix[nbAlea]+" : EGALITE");
 		        
 			}
 			if(isDivin && nombreAleatoire<coeffDivin){
 				System.out.println("La divinité a utilisé sa compétence. Il a gagné une vie.");
 				nbVie_ad +=1;
+			}
+			if(isDemon && nombreAleatoire<coeffDemon){
+				System.out.println("Le Demon a utilisé sa compétence. Il est invincible pendant ce tour.");
+				nbVie_ad +=value;
 			}
 			
 			System.out.println("Score (en terme de vie) : ");
@@ -222,22 +241,24 @@ public class MenuInter{
 	 */
     public static void Introduction(Heros heros){
 		Scanner sc = new Scanner(System.in);
-        System.out.print("Choisissez le nom de votre Héros : ");
+		System.out.println("Pour sauvegarder la partie, entrez le mot \"s\" au cours du jeu dans le terminal ( lorsque ce n'est pas une DECISION)");
+        sc.nextLine();
+		System.out.print("Choisissez le nom de votre Héros : ");
         String Nom = sc.next();
         heros.setNom(Nom);
         sc.nextLine();
         System.out.println("Salut ! Tu es " +heros.getNom());
         sc.nextLine();
-        System.out.println("Quelle difficulte veux tu choisir :\n1.Facile (recommandé)\n2.Moyen\n3.Difficile\n4.Realiste (Deconseille)");
+        System.out.println("Quelle difficulte veux tu choisir :\n1.Super Facile \n2.Facile (recommandé)\n3.Moyen\n4.Difficile");
         int v = Lecture.reponseInt(4);
         if (v == 1)
-            heros.setVie(5);
+            heros.setVie(8);
         if (v == 2)
-            heros.setVie(4);
+            heros.setVie(5);
         if (v == 3)
-            heros.setVie(3);
+            heros.setVie(4);
         if (v == 4)
-            heros.setVie(1);
+            heros.setVie(3);
 
         
         System.out.print("Es tu prêt à commencer l'aventure ??");

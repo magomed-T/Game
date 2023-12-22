@@ -149,6 +149,7 @@ public abstract class Arme implements Serializable{
     /**
      * Getter pour obtenir la valeur de portée de l'arme.
      *
+     * @return La portee de l'arme
      * */
     public int getPortee(){
         return this.portee ;
@@ -157,6 +158,7 @@ public abstract class Arme implements Serializable{
     /**
      * Getter pour obtenir la précision de l'arme.
      *
+     * @return la precision de l'arme
      * */
     public int getPrecision(){
         return this.precision ;
@@ -165,6 +167,7 @@ public abstract class Arme implements Serializable{
     /**
      * Getter pour obtenir l'Element de l'arme.
      *
+     *  @return L'element de l'arme
      * */
     public Element getElem(){
         return this.Elem ;

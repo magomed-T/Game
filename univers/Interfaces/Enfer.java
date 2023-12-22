@@ -1,6 +1,6 @@
 package univers.Interfaces;
 
-// Type incarne par les monstres
+/** Interface implementé par les Demons. Capacité d'être invulnérable pendant un tour en combat */
 public interface Enfer {
-    public void Intimider(); // Le joueur lui reste 1 vie pendant un tour
+    public void Intimider();
 }

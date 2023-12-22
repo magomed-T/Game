@@ -185,6 +185,8 @@ public class InnerNode extends Node {
                 return 2;
         }
 
+        // Le joueur perd une vie et revient à la derniere Decision s'il a plus d'une vie.
+        // Sinon GAME OVER
         else if (this.condition == 3) {
             int vies = heros.getVie();
             if (vies > 0) {
@@ -197,6 +199,7 @@ public class InnerNode extends Node {
         }
 
         
+        // Le joueur entre en combat avec un ennemi
         if (this.condition == 4) {
             boolean victoire = MenuInter.combat(heros, (Combattant) personnages.get(1));
             if (victoire)
@@ -205,6 +208,7 @@ public class InnerNode extends Node {
                 return 2;
         }
 
+        // COnditiant vérifiant s'il possède une arce ou des ailes pour atteindre des ennemis volants
         if (this.condition == 5) { // Contre les combattants volants
             if (heros.getArme() instanceof Arc || heros.hasObjet(Objet.AILES_ICARE))
                 return 1;
@@ -214,6 +218,10 @@ public class InnerNode extends Node {
         return -2;
     }
 
+    /** Choix du prochain noeud sous condition 
+     * Va au premier noeud mentionné si aucune condition
+     * Va au prochain noeud définit par la condition s'il y a une condition
+    */
     @Override
     public Node chooseNext() {
         if (this.condition == 0) {

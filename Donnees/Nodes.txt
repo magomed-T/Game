@@ -34,11 +34,11 @@ I17 : Helas, celle-ci bondit sur vous, pour y planter ses griffes, arrachant bru
 
 I18: Vous bondissez sur elle en utilisant votre arme (Combat).
 
-I19 : Vous faites un bond en arrière et lui infligez une attaque à distance.(Combat)
+I19 : Vous faites un bond en arriere et lui infligez une attaque a distance.(Combat)
 
 I20 : Vous avez obtenu de la Cire !
 
-I21 : Vous continuez votre chemin et voyez que le couloir se separe en deux chemins differents.
+I21 : Vous continuez votre chemin et voyez que le couloir se separe en deux chemins differents, faites votre choix.
 
 I22 : Vous progressez dans ce tres long couloir en remarquant que le couloir ressemble a celui d'un chateau. La piece est tres bien entretenue. Quelqu'un est surement passe par ici... Vous remarquez a quel point le chemin est majestueux. Mais vous apercevez une grande porte en or barrant la route. A cote, une grande statue doree garde la porte prenant la forme d'un animal etrange (mi oiseau mi homme); ... Un SPHINX.
 
@@ -88,7 +88,7 @@ I44 : Vous attendez qu'il vienne mais le centaure decoche une nouvelle fleche en
 
 I45 : Le centaure vous a repere. Il decoche une fleche au niveau de votre genou et finit par vous ecraser brutalement avec ses sabots.
 
-I46 : Le centaure s'avance vers la foret mais vous a perdu de vue. \nVous sautez sur lui et lui infligez une attaque mortelle. Bien joue.
+I46 : Le centaure s'avance vers la foret mais vous a perdu de vue. \nVous sautez sur lui et lui infligez une attaque puissante. Bien joue.
 
 I47 : Vous vous approchez de Dionysos en tenant la dague a cote de lui. Mais Dionysos se reveille, et aperçoit la dague autour du cou ... Il comprend que quelqu'un veut l'assassiner, et dit d'un ton suppliant: "Attendez, attendez ! Ne me tuez...". Vous lui tranchez la tete d'un coup sec.
 
@@ -168,7 +168,7 @@ I84 : Vous avez reçu une potion de vie. Vous decidez de la boire :\nVous avez r
 
 I85 :La femme semble etre dans un etat deplorable, elle vous dit : "Par pitie, aidez moi s'il vous plait, coupez simplement ces chaines avec votre armes. Elles me retiennent prisonnieres de puis plusieurs jours. Cela fait des dizaines de jours que je n'ai pu ni mange ni boire. Je vous en supplie, aidez moi..."
 
-I86 : Au fur et a mesure que vous avancez, vous rencontrez un homme qui a l'air fort, avec une epee et un fil accroche a son pied. " Halte-La dit il, j'ai besoin de ton aide. Je suis le Thésée, fils du roi d'Athenes. Un lourd tribut a ete impose par le roi Minos au royaume d Athenes, obligeant chaque annee a donner 7 Atheniens et Atheniennes en sacrifice pour apaiser la colere du Minotaure, né d'une alliance interdite entre la femme du roi Minos, Pasiphaé, et d'un Taureau blanc. Je me suis porte volontaire afin de mettre fin a ces sacrifices et liberer le royaume d'Athenes."
+I86 : Au fur et a mesure que vous avancez, vous rencontrez un homme qui a l'air fort, avec une epee et un fil accroche a son pied. " Halte-La dit il, j'ai besoin de ton aide. Je suis le Thesee, fils du roi d'Athenes. Un lourd tribut a ete impose par le roi Minos au royaume d Athenes, obligeant chaque annee a donner 7 Atheniens et Atheniennes en sacrifice pour apaiser la colere du Minotaure, ne d'une alliance interdite entre la femme du roi Minos, Pasiphae, et d'un Taureau blanc. Je me suis porte volontaire afin de mettre fin a ces sacrifices et liberer le royaume d'Athenes."
 
 I87 : Vous progressez et vous entendez les Cris feroces d'un animal. En arrivant a la piece, vous apercevez un etre mi taureau mi homme ( le Minotaure) degustant un humain. a cote, 6 cadavres d'humains sans tetes se tiennent pret a etre manger et une hache geante faisant la meme taille que la creature est posee.  La piece est grande et vide comme une arene de combat. 
 
@@ -194,27 +194,61 @@ I97 : Vous arrivez a Athenes et reussissez a avoir une audience avec le roi. Vou
 
 I98 : null
 
-I99 : Vous avez reçu l’Amulette d’Oedipe !
+I99 : Vous avez reçu l'Amulette d'Oedipe !
 
-I100 : Vous avez reçu le fil d’Ariane !
+I100 : Vous avez reçu le fil d'Ariane !
 
-I101 : Vous n’avez pas de fil magique :\
+I101 : Vous n'avez pas de fil magique :\
 
-I102 : Vous continuez votre route quand soudain, vous rencontrez un homme en train de voler avec des ailes accrochées à ses sandales. C’est Hermès, le messager de Zeus. “ Ah ! Te voilà ! je t’attendais. Alors comme ça, cela fait à peine quelques heures que tu es ici et que tu me causes déjà des soucis. Bon sang, bon sang …\nLe Dieu tout-puissant a vu tes actes depuis là-haut. Il  avait des projets pour Dédale et Icare mais voilà que tu les brises. Hélas, il m’a dit de réparer mes conneries. Voilà que c’est ma faute ! Pfff... Maintenant, je dois nettoyer derrière lui. C’est toujours comme ça avec mon père ...“ 
+I102 : Vous continuez votre route quand soudain, vous rencontrez un homme en train de voler avec des ailes accrochees a ses sandales. C'est Hermes, le messager de Zeus. " Ah ! Te voila ! je t'attendais. Alors comme ça, cela fait a peine quelques heures que tu es ici et que tu me causes deja des soucis. Bon sang, bon sang …\nLe Dieu tout-puissant a vu tes actes depuis la-haut. Il  avait des projets pour Dedale et Icare mais voila que tu les brises. Helas, il m'a dit de reparer mes conneries. Voila que c'est ma faute ! Pfff... Maintenant, je dois nettoyer derriere lui. C'est toujours comme ça avec mon pere ..." 
 
-I103 : Hermès s’élance vers vous avec une telle vitesse que vous avez à peine le temps de le voir venir. (Combat)
+I103 : Hermes s'elance vers vous avec une telle vitesse que vous avez a peine le temps de le voir venir. (Combat)
 
-I104 : Vous parvenez à l’attaquer avant qu’il vienne à vous et le tuez en un coup. Bien joué ! Vous avez été chanceux.
+I104 : Vous parvenez a l'attaquer avant qu'il vienne a vous et le tuez en un coup. Bien joue ! Vous avez ete chanceux.
 
-I105 : Vous avez reçu les Sandales d'Hermès !
+I105 : Vous avez reçu les Sandales d'Hermes !
 
-I106 : Vous tentez de l’attaquer...
+I106 : Vous tentez de l'attaquer...
 
-I107 : Hélas, vous n’avez ni ailes ni arc ! Ce dernier fonce vers vous et vous décapite la tête avec une précision divine ! Vous mourrez ...
+I107 : Helas, vous n'avez ni ailes ni arc ! Ce dernier fonce vers vous et vous decapite la tete avec une precision divine ! Vous mourrez ...
 
-I108 : Vous êtes déjà passé par là ...
+I108 : Vous etes deja passe par la ...
 
-I109 : Vous êtes déjà passé par là ...
+I109 : Vous etes deja passe par la ...
+
+I110: Dans le couloir sombre, une porte massive se dresse devant vous. Une inscription mysterieuse semble indiquer qu'elle mene aux enfers. Un frisson parcourt votre echine. Derriere cette porte, une voix resonne, murmurant des mots a peine audibles.
+
+I111:Vous tentez d'ouvrir la porte, mais elle resiste. Il vous faut une cle des enfers.Heureusement, vous avez la cle. 
+
+I112:Vous tentez d'ouvrir la porte, mais elle resiste. Il vous faut une cle des enfers.
+
+I113:Vous decidez de ne pas risquer l'ouverture de la porte sans plus d'informations. Mais l'intrigue des enfers persiste. Vous decidez de continuer a explorer le couloir.
+
+I114:Apres avoir ouvert la porte, plus loin, vous apercevez un escalier descendant vers les enfers, l'atmosphere devient macabre. Au bas de l'escalier, un personnage apparaît : cela semble etre un homme grand et fort avec une armure.
+
+I115:"Salut l'ami, je suis Persee. Mon oncle, Polydectes, le roi de l'île de Serifos, m'a envoye pour une mission delicate. Vois-tu dans ce labyrinthe en pierre a ma droite. Un monstre redoutable appele la Meduse y rôde. On raconte qu'elle petrifie tous ceux qui croisent son regard.  Je dois lui apporter la tete de la meduse pour montrer que je suis digne pour le trône du royaume de Serifos mais j'ai besoin d'un soldat. 
+
+I116: Vous entrez tous les deux dans le labyrinthe en pierre. Les couloirs sont etroits et identiques. Vous ne pouvez y voir que des murs en pierre et les chemins ne font pas plus de 5 metres de long.
+
+I117 : "Votre refus est une erreur fatale...Votre refus scelle votre destin". Persee, le regard froid et determine, devoile un eclat de sadisme dans ses yeux. Sans la moindre hesitation, il degaine son epee et le pointe vers vous. Une aura tenebreuse se forme autour de lui, emplie d'une energie sinistre, la folie s'empare de lui.Les enfers reclament leur tribut.La scene devient chaotique. \nD'un geste rapide, Persee assene un coup precis, visant avec une expertise mortelle, au niveau du coeur. Votre coeur se retrouve sur son epee. Vous vivez vos derniers instants sans rien pouvoir faire. Avant de partir, Persee emporte votre coeur et le met dans sa poche, en signe de trophee.
+
+I118: Sans hesitation, vous decidez de faire face a la Meduse directement. L'acier claque contre les dizaines de serpents sur sa tete, mais la Meduse vous fixe droit dans les yeux, vous savez que c'est finie…En croisant son regard, elle vous transforme en statue de pierre.
+
+I119 : Vous choisissez de ne pas affronter le regard petrifiant de la Meduse. 
+
+I120: Persee, comprenant votre strategie, decide de vous suivre. Vous decidez de degainer votre bouclier miroir pour vous proteger des regards mortels et l'utiliiser pour vous orienter. Un combat intense s'ensuit, chacun luttant pour sa survie dans le labyrinthe.
+
+I121:Pendant que vous utilisez le bouclier pour distraire la Meduse, Persee en profite pour faire le tour et se retrouver derriere la mere des serpents. Celui-ci attaque d'un coup sec avec son epee legendaire et coupe la tete de la Meduse. Les serpents, sur sa tete, commencent a s'agiter et bouger dans tous les sens : ils perdent beaucoup de sang, finissant pour mourir en meme temps que la Meduse.\nSoulage, Persee vous dit : "Bien joue l'ami ! Je te remercie pour ton aide precieuse, grace a toi, j'ai pu vaincre la Meduse. Il est desormais temps pour moi de retourner chez toi, et donner au Roi, la tete de la Meduse. Je t'offre ceci pour m'avoir aider. Cette une epee que ma famille possede depuis longtemps. On raconterait qu'il appartiendrait au dieu des enfers et qu'il est maudit. Tu en auras surement besoin dans tes aventures. Bon courage, l'ami ! Nous nous reverrons ...
+
+I122: Helas, vous croisez son regard et la meduse reussit a petrifier sa proie."Tu as choisi la voie de la petrification.Vous demeurez la, prisonnier de votre propre forme de pierre, tandis que le monde continue sans vous. Vous n'etes plus qu'une statue eternelle, figee dans le temps.
+
+I123: vous tentez de pousser Persee par derriere, mais Persee se sentant trahi, reagit avec une fureur inattendue. Mais c'est trop tard : Persee est deja devenu une statue eternelle. Vous profitez de la situation de confusion pour vous lancer dans un combat a mort contre la meduse (combat).
+
+I124: Vous tentez de pousser Persee par derriere vers La Meduse, mais Persee vous remarque et decouvre votre stratageme, se sentant trahi, il reagit avec une fureur inattendue.\nPersee, le regard froid et determine, devoile un eclat de sadisme dans ses yeux. Sans la moindre hesitation, il degaine son epee et le pointe vers vous. Une aura tenebreuse se forme autour de lui, emplie d'une energie sinistre, la folie s'empare de lui.Les enfers reclament leur tribut.La scene devient chaotique. \nD'un geste rapide, Persee assene un coup precis, visant avec une expertise mortelle, au niveau du coeur. Votre coeur se retrouve sur son epee. Vous vivez vos derniers instants sans rien pouvoir faire. Avant de partir, Persee emporte votre coeur et le met dans sa poche, en signe de trophee.
+
+I125: Apres un combat acharne, vous reussissez a vaincre la legendaire Meduse. Vous lui coupez la tete d'un coup sec. Les serpents, sur sa tete, commencent a s'agiter et bouger dans tous les sens : ils perdent beaucoup de sang, finissant pour mourir en meme temps que la Meduse.
+
+I126 :  Vous avez reçu l'epee d'Hades. Vous decidez de continuer
 
 D1 : Si tu as bien compris dis moi OUI, sinon NON :\n1.Oui\n2.Non\n(Choisissez entre 1 ou 2);
 
@@ -236,7 +270,7 @@ D9 : Vous apercevez une arme dans le fourreau qu'avait le roi (epee d'Achille). 
 
 D10: Vous voyez un centaure (mi homme, mi cheval) avec un arc de l'autre cote du pont. Une fleche atterrit a cote de vous. Il a l'air d'etre agressif. Le centaure s'apprete a traverser le pont en courant.\n\nQue faites vous :\n1.Essayer de l'attaquer\n2.Attendre qu'il vienne.\n3.Trouver un abri en se cachant dans la foret
 
-D11 : Vous trouvez un abri attendant que le centaure vienne a vous mais vous devez choisir une cachette. Que choisissez-vous :\n1.Derriere un arbre\n2.Au dessus d'un arbre pour le surprendre\n3.Dans un buisson\nDerriere un rocher
+D11 : Vous trouvez un abri attendant que le centaure vienne a vous mais vous devez choisir une cachette. Que choisissez-vous :\n1.Derriere un arbre\n2.Au dessus d'un arbre pour le surprendre\n3.Dans un buisson\n4.Derriere un rocher
 
 D12 : Vous traversez le pont et entrez dans la maison discretement. Vous sentez une forte odeur d'alcool. Un Dieu ivre (Dionysos)  y est en train de dormir sur sa chaise. Vous voyez aussi une dague a cote de lui. Que faites vous : \n1.Le poignarder et lui couper la tete\n2.Le reveiller 
 
@@ -262,11 +296,17 @@ D22: Aide moi a le trouver et a achever ce Minotaure. Cela fait trop longtemps q
 
 D23 : Que faites vous :\n1.L'attaquer de front\n2.Le contourner et l'attaquer par surprise\n3.Tirer sur le Fil magique
 
-D24 : Le Minotaure arrive derriere vous. Vous a peine le temps de reagir : Que faites vous ?\n1.Esquiver\n2.Bloquer\n3.Parer
+D24 : Le Minotaure arrive derriere vous. Vous avez a peine le temps de reagir : Que faites vous ?\n1.Esquiver\n2.Bloquer\n3.Parer
 
 D25 : "La fin est presque devant nous. Je suis etonne que tu aies survecu jusque la. Tes decisions t'ont mene jusqu'ici et c'est par la force de tes decisions que tu as façonne ton destin. Es-tu pret a sortir ? C'est la moindre des choses que de t'attendre" : \n1.Suivre Thesee jusqu'a la sortie\n2.Tuer Thesee et sortir en utilisant le fil.
 
-D26 : Hermès prend de la hauteur avec ses sandales et s’apprête à attaquer. Que faites-vous :\n1.L’attaquer avant qu’il attaque \n2.Attendre qu’il vienne pour contre-attaquer.
+D26 : Hermes prend de la hauteur avec ses sandales et s'apprete a attaquer. Que faites-vous :\n1.L'attaquer avant qu'il attaque \n2.Attendre qu'il vienne pour contre-attaquer.
+
+D27: "Voulez-vous ouvrir la porte ?\n1.Oui\n2.Non"
+
+D28: Il me faut quelqu'un pour la distraire et j'arriverai derriere elle pour lui couper la tete. Aide-moi, et je te recompenserai d'une arme (Epee de Damocles) ."\nAccepter l'aide de Persee ? \n1.Oui\n2.Non
+
+D29: Vous entendez un bruit … Des bruits de serpents qui sifflent. Persee vous dit : "Attends deux secondes. C'est elle, la Meduse ! On la reconnaît avec ses cheveux en forme de serpents. ecoute ! On ne peut pas s'approcher d'elle car ses serpents sont aussi ces yeux et elle peut donc voir de tous les côtes. Par contre si tu l'as distrait on a des chances de pouvoir la tuer. Moi, je vais passer derriere elle pour pouvoir l'attaquer dans le dos sans qu'elle me remarque. Que faites vous :\n1.L'attaquer de front\n2.L'attaquer sans la regarder dans les yeux.\n3.Trahir Persee et l'utiliser comme Distraction
 
 C1 : Elle s'enfuit de douleur vous laissant le passage pour la suite. Bien joue
 
@@ -275,6 +315,8 @@ C2 : Un des gardes vous blesse. Mais vous essayez ensuite d'attaquer les autres 
 C3 : Vous vous ruez brusquement vers lui en lui donnant un coup avec votre arme.
 
 C4 : null
+
+C5:La tentation de trahir Persee pour vous sauver prend le dessus. Vous le poussez deliberement aux yeux de la Meduse, esperant utiliser la confusion pour votre avantage. 
 
 T1 : GAME OVER
 

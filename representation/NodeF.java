@@ -1,7 +1,6 @@
 package representation;
 
 import java.util.Scanner;
-import java.util.List;
 import Autres.MenuInter;
 
 /**

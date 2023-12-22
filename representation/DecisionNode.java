@@ -71,11 +71,11 @@ public class DecisionNode extends InnerNode {
      */
 
     public int NextConditionUnderDecision(int decision, int condition){
-        //System.out.println("Je suis dans NextConditionUnderDecision");
-        if (!(this.personnages.get(0) instanceof Heros)){
-            System.out.println("Probleme : Il y a pas d'heros dans le node");
-            return -1;
+        try{
+        if ((this.personnages.get(0) == null))
+            throw new Exception();
         }
+        catch(Exception e){System.out.println("Probleme : Il y a pas d'heros dans le node");}
         Heros heros = (Heros) this.personnages.get(0) ;
         // Vérifie si l'arme du héros possède les caractéristiques minimales nécessaires avant d'aller au prochain node
         if(condition == 1){
@@ -84,7 +84,9 @@ public class DecisionNode extends InnerNode {
             int attaqueMin = StatsMin.get(0);
             int porteeMin = StatsMin.get(1);
             int precMin = StatsMin.get(2);
-            //System.out.println(StatsMin);
+
+            // Vérifie si l'arme du heros possède sles caractéristiques minimales nécessaire
+            // Et, va au prochain noeud en fonction de si la condition est vérifiée ou non
             if( HerosArme.getPrecision() >= precMin && HerosArme.getAttaque() >= attaqueMin && HerosArme.getPortee() >= porteeMin ){
                 return nextChoice.get(decision-1).get(0);   
             }
@@ -143,9 +145,6 @@ public class DecisionNode extends InnerNode {
             if(this.decision == 1)
                 heros.setArme(this.armes.get(0));
         }
-
-        if (this.action == 3)
-        return;
     }
 
     /**

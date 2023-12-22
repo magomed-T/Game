@@ -41,9 +41,8 @@ public class Game {
     // ------------------ PERSONNAGES -----------------------------
     Divinite[] Dieux = {
         new Divinite("Hermes",2,Element.TERRE),
-        new Divinite("Poseidon",6,Element.EAU),
-        new Divinite("Héphaistos",6,Element.FEU),
-        new Divinite("Ares",6,Element.FEU),
+        //new Divinite("Poseidon",6,Element.EAU),
+        //new Divinite("Ares",6,Element.FEU),
     };
     //DemiDieu[] DemiDieux = {new DemiDieu("Hercule"),new DemiDieu("Achille"),new DemiDieu("Thesee"),new DemiDieu("Ulysse")};
     //Civil[] Civils = {new Civil("Persee"),new Civil("Dedale"),new Civil("Icare"),new Civil("Oedipe"),new Civil("Jason"),new Civil("Midas")};
@@ -57,7 +56,7 @@ public class Game {
     Demon[] Demons = {new Demon("La Meduse",4, new Element[]{Element.FEU})};
     
     // ------------------ ARMES -----------------------------
-    Epee[] Epees = {new Epee("Epee en bois",9,4,7), new Epee("Epee d'Achille",15,7,10,Element.FEU),new Epee("Epee d'Hector",18,10,14) , new Epee("Excalibur", 100, 50, 20,Element.FEU)};
+    Epee[] Epees = {new Epee("Epee en bois",9,4,7), new Epee("Epee d'Achille",15,7,10,Element.FEU),new Epee("Epee d'Hector",18,10,14) ,new Epee("Epee d'Hades", 20, 15, 15,Element.FEU), new Epee("Excalibur", 100, 50, 20,Element.FEU)};
     Lance[] Lances = {new Lance("Lance en bois",7,9,4),new Lance("Lance d'Athena",9,13,7,Element.TERRE)};
     Arc[] Arcs = {new Arc("Arc en bois",4,7,9),new Arc("Arc d'Artemis",9,15,20,Element.EAU)}; 
 
@@ -70,21 +69,26 @@ public class Game {
 
 
     // Initialisation des nœuds de décision, de chance
-
     /** Contient toutes les nodes du jeu avec le titre du node associé à la clé : (titres)
      * I? : pour InnerNode      (? : numero du node)
      * D? : pour DecisionNode 
      * C? : pour ChanceNode
      * T? : pour TerminalNode
-    */
-    Map<String,Node> nodeMap = Lecture.CreateNodeMap("Donnees/Nodes.txt");
+     * */
+    Map<String,Node> nodeMap = null;
     /** Contient la liste des successeurs pour chaque node associée*/
-    Map<String,List<String>> nodeNextMap = Lecture.CreateNodeNextMap("Donnees/NextNodes.txt");
-    //Créer les liaisons entre les nodes et ses listes de successeurs.
+    Map<String,List<String>> nodeNextMap = null;
+    try{
+    nodeMap = Lecture.CreateNodeMap("Donnees/Nodes.txt");
+    nodeNextMap = Lecture.CreateNodeNextMap("Donnees/NextNodes.txt");
     Lecture.LinkNodeMap(nodeMap,nodeNextMap);
     //Ajoute l'héros principal dans tous les nodes
     Lecture.addHerosNodeMap(nodeMap,heros);
     //Lecture.AfficheNodeMap(nodeMap,nodeNextMap);
+    }
+    catch(Exception e){
+        System.out.println("ERREUR : Problème dans l'extraction des données dans les fichiers");
+    }
 
     DecisionNode D2 = (DecisionNode) nodeMap.get("D2");
     DecisionNode D3 = (DecisionNode) nodeMap.get("D3");
@@ -95,16 +99,20 @@ public class Game {
     DecisionNode D14 = (DecisionNode) nodeMap.get("D14");
     DecisionNode D15 = (DecisionNode) nodeMap.get("D15");
     DecisionNode D17 = (DecisionNode) nodeMap.get("D17");
+    DecisionNode D20 = (DecisionNode) nodeMap.get("D20");
     DecisionNode D23 = (DecisionNode) nodeMap.get("D23");
-    DecisionNode D24 = (DecisionNode) nodeMap.get("D24");   
+    DecisionNode D24 = (DecisionNode) nodeMap.get("D24");  
+    DecisionNode D27 = (DecisionNode) nodeMap.get("D27");  
     ChanceNode C1 = (ChanceNode) nodeMap.get("C1");
     ChanceNode C2 = (ChanceNode) nodeMap.get("C2");
     ChanceNode C3 = (ChanceNode) nodeMap.get("C3");
     ChanceNode C4 = (ChanceNode) nodeMap.get("C4");
+    ChanceNode C5 = (ChanceNode) nodeMap.get("C5");
     InnerNode I31 = (InnerNode) nodeMap.get("I31");
     InnerNode I37 = (InnerNode) nodeMap.get("I37");
     InnerNode I84 = (InnerNode) nodeMap.get("I84");
     InnerNode I106 = (InnerNode) nodeMap.get("I106");
+    InnerNode I119 = (InnerNode) nodeMap.get("I119");
     
     
     // Configuration des choix, conditions, objets, armes, etc. pour chaque nœud
@@ -133,8 +141,8 @@ public class Game {
     D11.setNextChoice(new int[][]{{2,1},{2,1},{2,1},{2,1}});
     D14.setCondition(2);
     D14.setNbOfDecision(2);
-    D14.setObjets(new Objet[]{null,Objet.AMULETTE_OEDIPE});
-    D14.setNextChoice(new int[][]{{1,1},{3,2}});
+    D14.setObjets(new Objet[]{null,Objet.SANDALE_HERMES});
+    D14.setNextChoice(new int[][]{{1,1},{2,3}});
     D15.setNbOfDecision(3);
     D15.setCondition(2);
     D15.setObjets(new Objet[]{null,Objet.CIRE,null});
@@ -143,6 +151,10 @@ public class Game {
     D17.setCondition(2);
     D17.setObjets(new Objet[]{Objet.FLUTE_DE_PAN,null,null});
     D17.setNextChoice(new int[][]{{1,4},{2,2},{3,3}});
+    D20.setNbOfDecision(2);
+    D20.setCondition(2);
+    D20.setObjets(new Objet[]{Objet.FLUTE_DE_PAN,null});
+    D20.setNextChoice(new int[][]{{1,3},{2,2}});
     D23.setNbOfDecision(3);
     D23.setCondition(2);
     D23.setObjets(new Objet[]{null,null,Objet.FIL_ARIANE});
@@ -151,27 +163,42 @@ public class Game {
     D24.setCondition(1);
     D24.setAllStatsMin(new int[][]{{0,0,0},{9,7,9},{10,7,7}} );
     D24.setNextChoice(new int[][]{{1,2},{1,2},{1,2}});
+    D27.setNbOfDecision(2);
+    D27.setCondition(2);
+    D27.setObjets(new Objet[]{Objet.CLEF_DES_ENFERS,null});
+    D27.setNextChoice(new int[][]{{1,3},{2,2}});
 
-    C1.setProba(ChanceNode.HighChance);
+    C1.setProba(ChanceNode.AlmostSure);
     C2.setProba(ChanceNode.LowChance);
     C3.setProba(ChanceNode.FiftyFifty);
-    C4.setProba(ChanceNode.FiftyFifty);
+    C4.setProba(ChanceNode.HighChance);
+    C5.setProba(ChanceNode.MiddleChance);
 
     I31.setCondition(1);
     I31.setStatsMin(new int[]{5,4,4});
     I37.setCondition(2);
     I37.addObjets(Objet.VIN);
-    I106.setCondition(5);
     I84.setAction(6);
+    I106.setCondition(5);
+    I119.setCondition(2);
+    I119.addObjets(Objet.BOUCLIER_MIROIR);
 
-    List<String> CombatNode = Lecture.tabToArray(new String[]{"I18","I19","I81","I91","I98","I103"});
-    List<String> getItemNode = Lecture.tabToArray(new String[]{"I20","I36","I59","I70","I75","I99","I100","I105"});
-    List<String> getArmeNode = Lecture.tabToArray(new String[]{"I52","I71","I74","I80"});
-    String[] GameOverNode = new String[]{"I17","I25","I29","I32","I39","I44","I45","I48","I55","I57","I67","I77","I78","I88","I89","I93","I107"};
+    // Enumère la Liste des Nodes où un combat se produit
+    List<String> CombatNode = Lecture.tabToArray(new String[]{"I18","I19","I81","I91","I98","I103","I120","I123"});
+    List<Combattant> NodeCombattant= Lecture.tabToArray(new Combattant[]{Monstres[0],Monstres[0],Monstres[3],Monstres[4],Monstres[2],Dieux[0],Demons[0],Demons[0]});// Combattants associés à chaque Node
+    // Enumère la Liste des Nodes où l'héros reçoit un objet
+    List<String> getItemNode = Lecture.tabToArray(new String[]{"I20","I36","I59","I70","I75","I99","I100","I105","I50"});
+    List<Objet> NodeItem= Lecture.tabToArray(new Objet[]{Objet.CIRE,Objet.VIN,Objet.AILES_ICARE,Objet.CLEF_DES_ENFERS,Objet.BOUCLIER_MIROIR,Objet.AMULETTE_OEDIPE,Objet.FIL_ARIANE,Objet.SANDALE_HERMES,Objet.FLUTE_DE_PAN});
+    // Enumère la Liste des Nodes où l'héros reçoit une arme
+    List<String> getArmeNode = Lecture.tabToArray(new String[]{"I52","I71","I74","I80","I126"});
+    List<Arme> NodeArme= Lecture.tabToArray(new Arme[]{Epees[1],Lances[1],Epees[2],Arcs[1],Epees[3]}); // Liste des Armes associées
+    // Enumère la Liste des Nodes où le héros perd une vie où les nodes qui mènent bers game Over.
+    String[] GameOverNode = new String[]{"I17","I25","I29","I32","I39","I44","I45","I48","I55","I57","I67","I77","I78","I88","I89","I93","I107","I117","I122","I124"};
+    
     String[][] SoundNode = new String[][]{
         {"D3","Arraignee.wav"},
         {"I15","Pas.wav"},
-        //{"I24","PierreTombale.wav"},
+        {"I18","EpeeCoupe.wav"},
         {"I25","Aigle.wav"},
         {"I27","Pas.wav"},
         {"I29","RireGrave.wav"},
@@ -182,25 +209,19 @@ public class Game {
         {"I43","Fleche.wav"},
         {"I44","Fleche.wav"},
         {"I45","Galop.wav"},
-        {"I46","EpeeLoup.wav"},
-        //{"I49","TchinTchin.wav"},
+        {"I46","EpeeFend.wav"},
         {"I64","Ailes.wav"},
-        //{"I65","ChuteCorps.wav"},
         {"I73","Flute.wav"},
+        {"I82","Flute.wav"},
         {"I77","Loup.wav"},
         {"I79","EpeeFend.wav"},
         {"I87","CriAnimal.wav"},
-        //{"I88","Manger.wav"},
         {"I90","EpeeFend.wav"},
         {"I92","EpeeFend.wav"},
-        //{"I102","Ailes.wav"},
         {"D13","RireGrave.wav"},
         {"D20","Loup.wav"},
+        {"T2","Victoire.wav"}
     };
-
-    List<Combattant> NodeCombattant= Lecture.tabToArray(new Combattant[]{Monstres[0],Monstres[0],Monstres[3],Monstres[4],Monstres[2],Dieux[0]});
-    List<Objet> NodeItem= Lecture.tabToArray(new Objet[]{Objet.CIRE,Objet.VIN,Objet.AILES_ICARE,Objet.CLEF_DES_ENFERS,Objet.BOUCLIER_MIROIR,Objet.AMULETTE_OEDIPE,Objet.FIL_ARIANE,Objet.SANDALE_HERMES});
-    List<Arme> NodeArme= Lecture.tabToArray(new Arme[]{Epees[1],Lances[1],Epees[2],Arcs[1]});
     Map<String,Combattant> combatMap = Lecture.createMap(CombatNode,NodeCombattant);
     Map<String,Objet> getItemMap = Lecture.createMap(getItemNode,NodeItem);
     Map<String,Arme> getArmeMap = Lecture.createMap(getArmeNode,NodeArme);
@@ -237,12 +258,14 @@ public class Game {
 
     //Lancement du jeu : Execution
     
-    heros.setArme(Epees[1]);
-    //heros.addObjet(Objet.CIRE);
-    //heros.addObjet(Objet.FLUTE_DE_PAN);
-    //heros.addObjet(Objet.AMULETTE_OEDIPE);
-    //MenuInter.Display(nodeMap);
-    NodeF.Execute(nodeMap.get("I25"),sc);
+    //COMMANDE A UTILISER POUR TRICHER :
+    
+    //heros.addObjet(Objet.CLEF_DES_ENFERS);
+    //heros.setArme(Epees[1]);
+    //heros.setVie(50);
+    //NodeF.Execute(nodeMap.get("I50"),sc);
+
+    MenuInter.Display(nodeMap);
 
     }
 }

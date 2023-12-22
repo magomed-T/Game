@@ -12,7 +12,9 @@ import java.io.Serializable;
  * */
 
 public abstract class PersonnageDeBase implements Serializable {
+    /** Nombre de vies du personnage */
     protected int vie; // Nombre de vies du personnage
+    /** Nom du personnage */
     protected String Nom;
 
     /**
