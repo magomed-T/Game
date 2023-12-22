@@ -1,8 +1,7 @@
 package univers.Armes;
-import univers.Interfaces.Melee;
 import univers.Element;
 
-public class Epee extends Arme implements Melee{
+public class Epee extends Arme{
     //Arme ayant Attaque FORTE, Portee FAIBLE, precision MOYEN  
     public Epee(String Nom, int attaque, int portee, int precision){
         super(Nom,attaque,portee,precision);

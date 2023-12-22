@@ -13,10 +13,27 @@ import java.util.HashMap;
 import representation.*;
 import univers.Personnages.Mortels.Heros;
 
+/**
+ * La classe Lecture fournit des méthodes utilitaires pour la lecture de fichiers,
+ * l'extraction d'informations, la création de structures de données.
+ *
+ *
+ * @author Willy VO Magomed Tsitsiev
+ * @version 1.0
+ */
+
 public class Lecture {
+    /** Liste pour stocker si un noeud est interne */
     protected static List<Boolean> isInner = new ArrayList<>();
+     /**Liste pour stocker si un noeud est une décision.*/
     protected static List<Boolean> isDeci = new ArrayList<>();
     
+    /**
+     * Lit le contenu d'un fichier et renvoie une liste de lignes.
+     *
+     * @param lien Le chemin du fichier à lire.
+     * @return Une liste de lignes lues depuis le fichier.
+     */
     public static List<String> lireFichier(String lien) {
         List<String> lignes = new ArrayList<>();
         try (BufferedReader fichier = new BufferedReader(new FileReader(new File(lien)))){
@@ -36,55 +53,13 @@ public class Lecture {
         return lignes;
 
     }
-    /* 
-    public static List<String> extractNodeText(String lien){
-        List<String> lignes = lireFichier(lien);
-        for (int i = 0; i<lignes.size();i++){
-            lignes.set(i,extracInfo(lignes.get(i))); 
-        }
-        return lignes;
-    }
 
-    public static List<List<Boolean>> extractNodeType(String lien){
-        List<String> lignes = lireFichier(lien);
-        List<Boolean> isInner = new ArrayList<>();// [0] : isInner, [1] : isDeci, 
-        List<Boolean> isDeci = new ArrayList<>();
-        String ligne;
-        for (int i = 0; i<lignes.size();i++){
-            ligne = lignes.get(i).trim();
-            //System.out.println("ligne " + i + " : " + ligne);
-            isInner.add(false);
-            isDeci.add(false);
-            if (ligne.startsWith("I")){
-                isInner.set(i,true);
-            }else if(ligne.startsWith("D")) {
-                isDeci.set(i,true);
-            }
-        }
-        List<List<Boolean>> nodesType = new ArrayList<>();
-        nodesType.add(isInner);
-        nodesType.add(isDeci);
-        return nodesType;
-    }
-
-    public static List<Node> CreateNodeList(String lien){
-        List<String> nodesText = extractNodeText(lien);
-        List<List<Boolean>> nodesType = extractNodeType(lien);
-        List<Boolean> isInn = nodesType.get(0);
-        List<Boolean> isDeci = nodesType.get(1);
-        List<Node> nodeList = new ArrayList<>();
-        int n = nodesText.size();
-        for(int i = 0; i<n; i++){
-            if(isInn.get(i))
-                nodeList.add(new InnerNode(nodesText.get(i)));
-            else if(isDeci.get(i))
-                nodeList.add(new DecisionNode(nodesText.get(i)));
-        }
-        return nodeList;
-    }
-    */
-
-
+    /**
+     * Extrait les informations d'une ligne après le symbole ':'.
+     *
+     * @param line La ligne à traiter.
+     * @return Les informations extraites après le symbole ':'.
+     */
     public static String extracInfo(String line) {
         int index = line.indexOf(":");
         if (index != -1) {
@@ -94,6 +69,12 @@ public class Lecture {
         return "";
     }
 
+     /**
+     * Extrait les informations d'une ligne avant le symbole ':'.
+     *
+     * @param line La ligne à traiter.
+     * @return Les informations extraites avant le symbole ':'.
+     */
     public static String extracBefore(String line) {
         int index = line.indexOf(":");
         if (index != -1) {
@@ -101,6 +82,13 @@ public class Lecture {
         }
         return "";
     }
+
+    /**
+     * Crée une map de noeuds à partir d'un fichier spécifié.
+     *
+     * @param lien Le chemin du fichier à lire.
+     * @return Une map contenant les noeuds créés avec les titres comme clés.
+     */
 
     public static Map<String,Node> CreateNodeMap(String lien){
         List<String> lignes = lireFichier(lien);
@@ -125,7 +113,12 @@ public class Lecture {
         Map<String,Node> nodeMap = createMap(keys, allNodes);
         return nodeMap;
     }
-
+    /**
+     * Crée une map des relations entre les noeuds à partir d'un fichier spécifié.
+     *
+     * @param lien Le chemin du fichier à lire.
+     * @return Une map contenant les relations entre les noeuds avec les titres comme clés.
+     */
     public static Map<String,List<String>> CreateNodeNextMap(String lien){
         List<String> lignes = lireFichier(lien);
         List<String> keys = new ArrayList<>();
@@ -147,6 +140,16 @@ public class Lecture {
         Map<String,List<String>> nodeNextMap = createMap(keys, values);
         return nodeNextMap;
     }
+
+    /**
+     * Crée une map à partir de deux listes spécifiées.
+     *
+     * @param keys   Liste des clés.
+     * @param values Liste des valeurs.
+     * @param <K>    Type générique pour les clés.
+     * @param <V>    Type générique pour les valeurs.
+     * @return Une map créée à partir des listes spécifiées.
+     */
 
     public static <K, V> Map<K, V> createMap(List<K> keys, List<V> values) {
         try{
@@ -172,7 +175,14 @@ public class Lecture {
         }
         return map;
     }
-
+    
+    /**
+     * Convertit un tableau en liste.
+     *
+     * @param tab Le tableau à convertir.
+     * @param <K> Type générique pour les éléments du tableau.
+     * @return Une liste contenant les éléments du tableau.
+     */
     public static <K> List<K> tabToArray(K[] tab){
         List<K>array = new ArrayList<>();
         for (K elem : tab){
@@ -181,12 +191,24 @@ public class Lecture {
         return array;
     }
 
+    /**
+     * Affiche les informations contenues dans les maps de noeuds et de transitions.
+     *
+     * @param nodeMap     Map des noeuds.
+     * @param NodeNextMap Map des transitions entre les noeuds.
+     */
     public static void AfficheNodeMap( Map<String,Node> nodeMap , Map<String,List<String>> NodeNextMap){
         for (String key : nodeMap.keySet() ){
             System.out.print("key :" + key +"\nvalue : " +nodeMap.get(key).getDescription() + "\nnextnodes :" + NodeNextMap.get(key) + "\n\n");
         }
     }
 
+    /**
+     * Lie les noeuds en fonction des informations de transition spécifiées.
+     *
+     * @param nodeMap     Map des noeuds.
+     * @param nodeNextMap Map des transitions entre les noeuds.
+     */
     public static void LinkNodeMap(Map<String,Node> nodeMap,Map<String,List<String>> nodeNextMap){
         int i;
         for(String key : nodeNextMap.keySet()){
@@ -205,11 +227,24 @@ public class Lecture {
         }
     }
 
+    /**
+     * Ajoute un personnage héroïque à tous les noeuds de la map.
+     *
+     * @param nodeMap Map des noeuds.
+     * @param heros   Objet Heros à ajouter.
+     */
     public static void addHerosNodeMap(Map<String,Node> nodeMap,Heros heros){
         for (String key : nodeMap.keySet()){
             nodeMap.get(key).addPerso(heros);
         }
     }
+
+    /**
+     * Obtient une réponse entière de l'utilisateur pour une décision spécifiée.
+     *
+     * @param nbOfDecision Nombre de décisions possibles.
+     * @return La réponse entière de l'utilisateur.
+     */
     public static int reponseInt(int nbOfDecision){
         Scanner sc = new Scanner(System.in);
         int reponse;

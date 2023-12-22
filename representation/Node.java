@@ -175,7 +175,8 @@ public abstract class Node implements Event, Serializable {
     public void callAction() {
         Heros heros = null;
         if (this.personnages.get(0) == null)
-            heros = (Heros) this.personnages.get(0);
+            System.out.println("Il n'y a pas d'héros dans la scène.");
+        heros = (Heros) this.personnages.get(0);
 
         // Exécute différentes actions en fonction du numéro d'action
         if (action == 2) {

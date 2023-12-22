@@ -168,7 +168,7 @@ I84 : Vous avez reçu une potion de vie. Vous decidez de la boire :\nVous avez r
 
 I85 :La femme semble etre dans un etat deplorable, elle vous dit : "Par pitie, aidez moi s'il vous plait, coupez simplement ces chaines avec votre armes. Elles me retiennent prisonnieres de puis plusieurs jours. Cela fait des dizaines de jours que je n'ai pu ni mange ni boire. Je vous en supplie, aidez moi..."
 
-I86 : Au fur et a mesure que vous avancez, vous rencontrez un homme, qui a l'air fort, avec une epee et un fil accroche a son pied. " Halte-La dit il, j'ai besoin de ton aide. Je suis le fils du roi d'Athenes. Un lourd tribut a ete impose par le roi Minos au royaume d Athenes, obligeant chaque annee a donner 7 Atheniens et Atheniennes en sacrifice pour apaiser la colere du Minotaure. Je me suis porte volontaire afin de mettre fin a ces sacrifices et liberer le royaume d'Athenes."
+I86 : Au fur et a mesure que vous avancez, vous rencontrez un homme qui a l'air fort, avec une epee et un fil accroche a son pied. " Halte-La dit il, j'ai besoin de ton aide. Je suis le Thésée, fils du roi d'Athenes. Un lourd tribut a ete impose par le roi Minos au royaume d Athenes, obligeant chaque annee a donner 7 Atheniens et Atheniennes en sacrifice pour apaiser la colere du Minotaure, né d'une alliance interdite entre la femme du roi Minos, Pasiphaé, et d'un Taureau blanc. Je me suis porte volontaire afin de mettre fin a ces sacrifices et liberer le royaume d'Athenes."
 
 I87 : Vous progressez et vous entendez les Cris feroces d'un animal. En arrivant a la piece, vous apercevez un etre mi taureau mi homme ( le Minotaure) degustant un humain. a cote, 6 cadavres d'humains sans tetes se tiennent pret a etre manger et une hache geante faisant la meme taille que la creature est posee.  La piece est grande et vide comme une arene de combat. 
 
@@ -264,7 +264,7 @@ D23 : Que faites vous :\n1.L'attaquer de front\n2.Le contourner et l'attaquer pa
 
 D24 : Le Minotaure arrive derriere vous. Vous a peine le temps de reagir : Que faites vous ?\n1.Esquiver\n2.Bloquer\n3.Parer
 
-D25 : "La fin est presque 	devant nous. Je suis etonne que tu aies survecu jusque la. Tes decisions t'ont mene jusqu'ici et c'est par la force de tes decisions que tu as façonne ton destin. Es-tu pret a sortir ? C'est la moindre des choses que de t'attendre" : \n1.Suivre Thesee jusqu'a la sortie\n2.Tuer Thesee et sortir en utilisant le fil.
+D25 : "La fin est presque devant nous. Je suis etonne que tu aies survecu jusque la. Tes decisions t'ont mene jusqu'ici et c'est par la force de tes decisions que tu as façonne ton destin. Es-tu pret a sortir ? C'est la moindre des choses que de t'attendre" : \n1.Suivre Thesee jusqu'a la sortie\n2.Tuer Thesee et sortir en utilisant le fil.
 
 D26 : Hermès prend de la hauteur avec ses sandales et s’apprête à attaquer. Que faites-vous :\n1.L’attaquer avant qu’il attaque \n2.Attendre qu’il vienne pour contre-attaquer.
 

@@ -5,7 +5,6 @@ import univers.Armes.*;
 import univers.Objets.Objet;
 import univers.Personnages.*;
 import univers.Personnages.Mortels.*;
-import univers.Personnages.Monstres.*;
 import univers.Interfaces.*;
 import java.util.Scanner;
 import java.util.List;
@@ -27,13 +26,11 @@ public class Game {
     Divinite[] Dieux = {
         new Divinite("Hermes",2,Element.TERRE),
         new Divinite("Poseidon",6,Element.EAU),
-        new Divinite("Zeus",6,Element.FOUDRE),
         new Divinite("Héphaistos",6,Element.FEU),
         new Divinite("Ares",6,Element.FEU),
     };
-    DemiDieu[] DemiDieux = {new DemiDieu("Hercule"),new DemiDieu("Achille"),new DemiDieu("Thesee"),new DemiDieu("Ulysse")};
-    Civil[] Civils = {
-        new Civil("Persee"),new Civil("Dedale"),new Civil("Icare"),new Civil("Oedipe"),new Civil("Jason"),new Civil("Midas")};
+    //DemiDieu[] DemiDieux = {new DemiDieu("Hercule"),new DemiDieu("Achille"),new DemiDieu("Thesee"),new DemiDieu("Ulysse")};
+    //Civil[] Civils = {new Civil("Persee"),new Civil("Dedale"),new Civil("Icare"),new Civil("Oedipe"),new Civil("Jason"),new Civil("Midas")};
     Monstre[] Monstres = {
         new Monstre("Araignees",1),
         new Monstre("Sirene",2, new Element[]{Element.EAU}),
@@ -41,7 +38,7 @@ public class Game {
         new Monstre("LoupGarou",3, new Element[]{Element.TERRE,Element.EAU}),
         new Monstre("Minotaure",4, new Element[]{Element.FEU,Element.TERRE})
     };
-    Demon[] Demons = {new Demon("Cerbere",4, new Element[]{Element.ANIMAL,Element.FEU}),new Demon("Gorgogne",4, new Element[]{})};
+    Demon[] Demons = {new Demon("La Meduse",4, new Element[]{Element.FEU})};
     
     // ------------------ ARMES -----------------------------
     Epee[] Epees = {new Epee("Epee en bois",9,4,7), new Epee("Epee d'Achille",15,7,10,Element.FEU),new Epee("Epee d'Hector",18,10,14) , new Epee("Excalibur", 100, 50, 20,Element.FEU)};
@@ -156,7 +153,7 @@ public class Game {
         {"I25","Aigle.wav"},
         {"I27","Pas.wav"},
         {"I29","RireGrave.wav"},
-        {"I33","CoupEpee.wav"},
+        {"I33","EpeeFend.wav"},
         {"I39","Fleche.wav"},
         {"I40","VerreEau.wav"},
         {"I42","Nature.wav"},
@@ -169,11 +166,11 @@ public class Game {
         {"I65","ChuteCorps.wav"},
         {"I73","Flute.wav"},
         {"I77","Loup.wav"},
-        {"I79","CoupEpee.wav"},
+        {"I79","EpeeFend.wav"},
         {"I87","CriAnimal.wav"},
-        {"I88","Manger.wav"},
-        {"I90","CoupEpee.wav"},
-        {"I92","CoupEpee.wav"},
+        //{"I88","Manger.wav"},
+        {"I90","EpeeFend.wav"},
+        {"I92","EpeeFend.wav"},
         {"I102","Ailes.wav"},
         {"D13","RireGrave.wav"},
         {"D20","Loup.wav"},
@@ -218,12 +215,12 @@ public class Game {
 
     //Execution
     
-    //heros.setArme(Epees[1]);
+    heros.setArme(Epees[1]);
     //heros.addObjet(Objet.CIRE);
     //heros.addObjet(Objet.FLUTE_DE_PAN);
     //heros.addObjet(Objet.AMULETTE_OEDIPE);
     //MenuInter.Display(nodeMap);
-    NodeF.Execute(nodeMap.get("I4"),sc);
+    NodeF.Execute(nodeMap.get("I42"),sc);
 
     }
 }

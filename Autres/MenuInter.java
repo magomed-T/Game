@@ -19,8 +19,25 @@ import univers.Interfaces.Divin;
 import univers.Personnages.Divinite;
 import univers.Personnages.Monstre;
 import univers.Personnages.Mortels.Heros;
+/**
+ * La classe MenuInter représente un menu interactif pour un jeu. 
+ * Elle permet de sauvegarder et charger des parties, de lancer une nouvelle partie
+ * ou de reprendre une partie sauvegardée, et de gérer les combats entre le héros
+ * et des adversaires.
+ * 
+ * Les méthodes principales comprennent sauvegarder, afficher le menu, charger une sauvegarde,
+ * et gérer les combats.
+ * 
+ */
 
 public class MenuInter{
+		/**
+	 * Sauvegarde un nœud (Node) dans un fichier en utilisant la sérialisation.
+	 * L'utilisateur est invité à entrer le nom de la sauvegarde.
+	 * 
+	 * @param node Le nœud à sauvegarder.
+	 */
+
 	public static void sauvegarder(Node node){
 		try{
 			Scanner sc = new Scanner(System.in);
@@ -41,6 +58,12 @@ public class MenuInter{
 		}
 	}
 
+	/**
+	 * Affiche un menu interactif permettant à l'utilisateur de choisir entre
+	 * lancer une nouvelle partie, reprendre une sauvegarde ou quitter le programme.
+	 * 
+	 * @param nodeMap Une carte de nœuds associés à des chaînes de caractères.
+	 */
 	public static void Display(Map<String,Node> nodeMap) {
         Scanner sc = new Scanner(System.in);
         int rep;
@@ -70,6 +93,13 @@ public class MenuInter{
             
     }
 
+	 /**
+     * Charge une sauvegarde existante à partir du répertoire "Autres/Sauvegarde".
+     * L'utilisateur sélectionne une sauvegarde parmi celles disponibles.
+     * 
+     * @param nodeMap Une carte de nœuds associés à des chaînes de caractères.
+     */
+
 	public static void ChargerSauvegarde(Map<String,Node> nodeMap){
 		Scanner sc = new Scanner(System.in);
 
@@ -98,6 +128,15 @@ public class MenuInter{
 		}
 
 	}
+
+	/**
+     * Gère un combat entre un héros et un adversaire (Combattant).
+     * Les actions du joueur et de l'adversaire sont déterminées de manière aléatoire.
+     * 
+     * @param heros Le héros participant au combat.
+     * @param adversaire L'adversaire avec lequel le héros combat.
+     * @return true si le héros gagne le combat, false sinon.
+     */
 
 	public static boolean combat(Heros heros, Combattant adversaire){
 		Random random = new Random();
@@ -173,13 +212,12 @@ public class MenuInter{
 		}
 	}	
 	
-    /**
-     * Genere un texte d'introduction pour le joueur et donne un nom au Heros.
-     * 
-     * @param heros Heros du personnage
-     * @param sc Scanner
-     */
-
+   /**
+	 * Génère un texte d'introduction pour le joueur et permet de choisir un nom pour le héros.
+	 * Demande également au joueur de choisir la difficulté du jeu.
+	 * 
+	 * @param heros Le héros du joueur.
+	 */
     public static void Introduction(Heros heros){
 		Scanner sc = new Scanner(System.in);
         System.out.print("Choisissez le nom de votre Héros : ");

@@ -1,9 +1,8 @@
 package univers.Armes;
 import univers.Element;
+;
 
-import univers.Interfaces.Melee;
-
-public class Lance extends Arme implements Melee {
+public class Lance extends Arme{
     //Arme ayant Attaque MOYEN, Portee FAIBLE, Precision FORTE 
     public Lance(String Nom, int attaque, int portee, int precision){
         super(Nom,attaque,portee,precision);
@@ -17,7 +16,4 @@ public class Lance extends Arme implements Melee {
         return;
     }
 
-    public void Ameliorer(){
-        Elem = Element.FOUDRE;
-    }
 }
