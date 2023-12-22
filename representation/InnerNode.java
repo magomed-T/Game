@@ -7,7 +7,8 @@ import univers.Combattant;
 import univers.Armes.Arc;
 import univers.Armes.Arme;
 import univers.Objets.Objet;
-import univers.Personnages.Mortels.Heros;
+import univers.Personnages.Heros;
+
 import java.util.ArrayList;
 
 /**

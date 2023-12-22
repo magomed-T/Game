@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import representation.*;
-import univers.Personnages.Mortels.Heros;
+import univers.Personnages.Heros;
 
 /**
  * La classe Lecture fournit des méthodes utilitaires pour la lecture de fichiers,

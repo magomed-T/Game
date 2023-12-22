@@ -2,8 +2,8 @@ package representation;
 
 import univers.Armes.Arme;
 import univers.Objets.Objet;
+import univers.Personnages.Heros;
 import univers.PersonnageDeBase;
-import univers.Personnages.Mortels.Heros;
 
 import java.io.Serializable;
 import java.util.LinkedList;

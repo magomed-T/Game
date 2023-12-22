@@ -17,8 +17,8 @@ import univers.PersonnageDeBase;
 import univers.Armes.Arme;
 import univers.Interfaces.Divin;
 import univers.Personnages.Divinite;
+import univers.Personnages.Heros;
 import univers.Personnages.Monstre;
-import univers.Personnages.Mortels.Heros;
 /**
  * La classe MenuInter représente un menu interactif pour un jeu. 
  * Elle permet de sauvegarder et charger des parties, de lancer une nouvelle partie

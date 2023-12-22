@@ -1,5 +1,4 @@
 package univers.Personnages;
-import univers.Personnages.Monstre;
 import univers.Interfaces.*;
 import univers.Element;
 /**

@@ -6,9 +6,9 @@ import Autres.Lecture;
 import java.util.ArrayList;
 import java.util.List;
 
-import univers.Personnages.Mortels.Heros;
 import univers.PersonnageDeBase;
 import univers.Objets.Objet;
+import univers.Personnages.Heros;
 import univers.Armes.Arme;
 public class DecisionNode extends InnerNode {
     private int decision;

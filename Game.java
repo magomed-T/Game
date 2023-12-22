@@ -10,18 +10,36 @@ import java.util.Scanner;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * La classe Game représente le déroulement d'un jeu dans un univers fictif.
+ * Elle inclut des personnages, des armes, des objets, des décisions et des scénarios.
+ *
+ * @see Heros
+ * @see Divinite
+ * @see Monstre
+ * @see Epee
+ * @see Lance
+ * @see Arc
+ * @see Objet
+ * @see Node
+ * @see DecisionNode
+ * @see ChanceNode
+ * @see InnerNode
+ */
+
 public class Game {
 
+    /**
+     * Constructeur par défaut de la classe Game.
+     */
     public Game(){
     }
     /**
-     * 
-     * Fonction Main
-     * @param args arguments du Main
+     * Fonction principale du jeu.
+     * Elle initie et déroule le scénario du jeu en interagissant avec les différents nœuds.
      */
-
-    //Test Terminal Node
     public void play(){
+    // Initialisation des données du jeu (personnages, armes, objets, etc.)
     // ------------------ PERSONNAGES -----------------------------
     Divinite[] Dieux = {
         new Divinite("Hermes",2,Element.TERRE),
@@ -52,8 +70,7 @@ public class Game {
     // Choix du nom du personnage
     Heros heros = new Heros(null);
 
-    // Partie 1 : Arrivée d'Hermes
-
+    // Initialisation des nœuds de décision, de chance, et internes
     Map<String,Node> nodeMap = Lecture.CreateNodeMap("Donnees/Nodes.txt");
     Map<String,List<String>> nodeNextMap = Lecture.CreateNodeNextMap("Donnees/NextNodes.txt");
     Lecture.LinkNodeMap(nodeMap,nodeNextMap);
@@ -81,18 +98,15 @@ public class Game {
     InnerNode I106 = (InnerNode) nodeMap.get("I106");
     
     
-    //D2.addPerso(heros);
+     // Configuration des choix, conditions, objets, armes, etc. pour chaque nœud
     D2.addArme(Epees[0]);
     D2.addArme(Lances[0]);
     D2.addArme(Arcs[0]);
     D2.setAction(1);
-
     D3.setNbOfDecision(3);
     D3.setCondition(1);
-
     D3.setIsSoundNode();
     D3.setFileName("Arraignee.wav");
-
     D3.setAllStatsMin(new int[][]{{0,0,0},{5,0,0},{0,5,0}} );
     D3.setNextChoice(new int[][]{{1,1},{2,1},{3,4}}); // [[victoire,perdu], ...]
     D7.setNbOfDecision(3);
@@ -213,7 +227,7 @@ public class Game {
     }
 
 
-    //Execution
+    //Lancement du jeu : Execution
     
     heros.setArme(Epees[1]);
     //heros.addObjet(Objet.CIRE);
