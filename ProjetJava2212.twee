@@ -1,0 +1,638 @@
+:: StoryTitle
+ProjetJava
+
+
+:: StoryData
+{
+  "ifid": "97F3756C-CECB-48B1-BAB3-58CFF2FC3B65",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "Passage sans titre",
+  "zoom": 0.6
+}
+
+
+:: C1 {"position":"575,2300","size":"100,100"}
+[[I20]]
+[[I21]]
+
+
+:: C2 {"position":"400,3925","size":"100,100"}
+--> I32 : 10%
+--> I33 : 90%
+
+[[I32]]
+I[[I33]]
+
+
+:: C3 {"position":"1325,3350","size":"100,100"}
+[[I57]]
+[[I58]]
+
+
+:: C4 {"position":"1400,5725","size":"100,100"}
+[[I103]]
+[[I104]]
+
+
+:: D1 {"position":"550,725","size":"100,100"}
+[[I6]]
+[[I7]]
+
+
+:: D10 {"position":"400,4975","size":"100,100"}
+[[I43]]
+[[I44]]
+[[D11]]
+
+
+:: D11 {"position":"525,5100","size":"100,100"}
+[[I45]]
+[[I46]]
+
+
+:: D12 {"position":"650,5600","size":"100,100"}
+[[I47]]
+[[D13]]
+
+
+:: D13 {"position":"700,5725","size":"100,100"}
+[[I49]]
+[[I48]]
+
+
+:: D14 {"position":"925,6050","size":"100,100"}
+[[I53]]
+[[I76]]
+
+
+:: D15 {"position":"1200,3225","size":"100,100"}
+[[I55]] 
+[[I60]]
+[[C3]]
+[[I56]]
+
+
+:: D16 {"position":"1200,3725","size":"100,100"}
+[[I63]]
+[[I58]]
+
+
+:: D17 {"position":"1200,4350","size":"100,100"}
+-->I73 Si Flute De pan
+--> T1 Sinon
+
+[[I67]]
+[[I73]]
+[[I68]]
+[[I69]]
+
+
+:: D18 {"position":"1275,6050","size":"100,100"}
+[[I22]]
+[[I76]]
+
+
+:: D19 {"position":"1150,6425","size":"100,100"}
+[[I77]]
+[[D20]]
+[[I79]]
+
+
+:: D2 {"position":"550,1100","size":"100,100"}
+[[I10]]
+
+
+:: D20 {"position":"1150,6550","size":"100,100"}
+[[I78]] 
+[[I81]]
+[[I82]]
+
+
+:: D21 {"position":"1100,7200","size":"100,100"}
+[[I86]]
+
+
+:: D22 {"position":"1100,7475","size":"100,100"}
+[[I100]]
+[[I87]]
+
+
+:: D23 {"position":"1100,7725","size":"100,100"}
+[[I88]]
+[[I89]]
+[[I90]]
+[[I101]]
+
+
+:: D24 {"position":"1125,8050","size":"100,100"}
+[[I91]]
+[[I93]]
+
+
+:: D25 {"position":"1100,8575","size":"100,100"}
+[[I95]]
+[[I96]]
+
+
+:: D26 {"position":"1475,5450","size":"100,100"}
+[[I106]]
+[[I103]]
+
+
+:: D3 {"position":"550,2000","size":"100,100"}
+[[I16]]
+[[I17]]
+[[I18]]
+[[I19]]
+
+
+:: D4 {"position":"575,2650","size":"100,100"}
+GAUCHE : Un couloir bien éclairé avec des tableaux de monarques de part et d'autres des murs et un tapis rouge sur le sol qui mène jusqu'au bout du couloir.\nDROITE : Un couloir sombre qui vous à l'air de mener vers un lieu qui a l'air d'être éclairé par la lumière naturelle du soleil.\n1.GAUCHE\n2.DROITE
+
+[[GAUCHE|I22]]
+[[DROITE|I53]]
+
+
+:: D5 {"position":"150,3175","size":"100,100"}
+[[I25]]
+[[I25]]
+[[I25]]
+[[I26]]
+[[I25]]
+[[I25]]
+
+
+:: D6 {"position":"275,3675","size":"100,100"}
+
+[[I29]]
+[[I30]]
+[[I31]]
+[[I32]]
+
+
+:: D7 {"position":"450,4325","size":"100,100"}
+[[D8]]
+[[I53]]
+[[I76]]
+
+
+
+:: D8 {"position":"350,4450","size":"100,100"}
+[[I38]]
+[[I37]]
+
+
+:: D9 {"position":"400,4175","size":"100,100"}
+[[D7]]
+
+
+:: I1 {"position":"550,225","size":"100,100"}
+[[I3]]
+
+
+:: I10 {"position":"550,1225","size":"100,100"}
+[[I11]]
+
+
+:: I100 {"position":"950,7550","size":"100,100"}
+[[I87]]
+
+
+:: I101 {"position":"1400,7850","size":"100,100"}
+
+
+
+:: I102 {"position":"1475,5450","size":"100,100"}
+[[D26]]
+
+
+:: I103 {"position":"1700,5750","size":"100,100"}
+[[I105]]
+
+
+:: I104 {"position":"1400,5850","size":"100,100"}
+[[I105]]
+
+
+:: I105 {"position":"1475,5975","size":"100,100"}
+[[D18]]
+
+
+:: I106 {"position":"1400,5575","size":"100,100"}
+[[C4]]
+[[I107]]
+
+
+:: I107 {"position":"1525,5650","size":"100,100"}
+
+
+
+:: I11 {"position":"550,1350","size":"100,100"}
+[[I12]]
+
+
+:: I12 {"position":"550,1475","size":"100,100"}
+[[I13]]
+
+
+:: I13 {"position":"550,1600","size":"100,100"}
+[[I14]]
+
+
+:: I14 {"position":"550,1725","size":"100,100"}
+[[I15]]
+
+
+:: I15 {"position":"550,1850","size":"100,100"}
+[[D3]]
+
+
+:: I16 {"position":"400,2125","size":"100,100"}
+[[I17]]
+
+
+:: I17 {"position":"425,2275","size":"100,100"}
+
+
+
+:: I18 {"position":"575,2150","size":"100,100"}
+[[C1]]
+
+
+:: I19 {"position":"700,2150","size":"100,100"}
+[[C1]]
+
+
+:: I20 {"position":"725,2400","size":"100,100"}
+[[I21]]
+
+
+:: I21 {"position":"575,2525","size":"100,100"}
+[[D4]]
+
+
+:: I22 {"position":"150,2800","size":"100,100"}
+Vous progressez dans ce très long couloir en remarquant que le couloir ressemble à celui d'un château. La pièce est très bien entretenue. Quelqu'un est sûrement passé par ici...
+Vous remarquez à quel point le chemin est majestueux. Mais vous apercevez une grande porte en or barrant la route. A côté, une grande statue dorée garde la porte prenant la forme d'un animal étrange (mi oiseau mi homme); ... Un SPHINX.
+
+[[I23]]
+
+
+:: I23 {"position":"150,2925","size":"100,100"}
+[[I24]]
+
+
+:: I24 {"position":"150,3050","size":"100,100"}
+[[D5]]
+
+
+:: I25 {"position":"75,3300","size":"100,100"}
+
+
+
+:: I26 {"position":"250,3300","size":"100,100"}
+[[I99]]
+
+
+
+:: I27 {"position":"250,3425","size":"100,100"}
+[[I28]]
+
+
+:: I28 {"position":"250,3550","size":"100,100"}
+[[D6]]
+
+
+:: I29 {"position":"150,3800","size":"100,100"}
+
+
+
+:: I3 {"position":"550,350","size":"100,100"}
+[[I4]]
+
+
+
+:: I30 {"position":"275,3800","size":"100,100"}
+[[I34]]
+
+
+
+:: I31 {"position":"400,3800","size":"100,100"}
+--> I32 si Arc
+--> C2 sinon
+
+[[I32]]
+[[C2]]
+
+
+:: I32 {"position":"550,3800","size":"100,100"}
+GAME OVER
+
+
+
+
+:: I33 {"position":"400,4050","size":"100,100"}
+[[D9]]
+
+
+:: I34 {"position":"275,3925","size":"100,100"}
+[[I35]]
+
+
+:: I35 {"position":"275,4050","size":"100,100"}
+[[I36]]
+
+
+
+:: I36 {"position":"275,4175","size":"100,100"}
+[[D7]]
+
+
+:: I37 {"position":"400,4600","size":"100,100"}
+
+[[I40]]
+[[I41]]
+
+
+:: I38 {"position":"250,4600","size":"100,100"}
+[[I39]]
+
+
+:: I39 {"position":"250,4725","size":"100,100"}
+
+
+
+:: I4 {"position":"550,475","size":"100,100"}
+[[I5]]
+
+
+:: I40 {"position":"400,4725","size":"100,100"}
+[[I42]]
+
+
+:: I41 {"position":"525,4600","size":"100,100"}
+[[D8]]
+
+
+:: I42 {"position":"400,4850","size":"100,100"}
+[[D10]]
+
+
+:: I43 {"position":"175,5050","size":"100,100"}
+[[I98]]
+
+
+:: I44 {"position":"400,5100","size":"100,100"}
+GAME OVER
+
+
+:: I45 {"position":"525,5225","size":"100,100"}
+
+
+
+:: I46 {"position":"650,5225","size":"100,100"}
+[[I98]]
+
+
+
+:: I47 {"position":"575,5725","size":"100,100"}
+[[I51]]
+
+
+:: I48 {"position":"825,5850","size":"100,100"}
+
+
+
+:: I49 {"position":"700,5850","size":"100,100"}
+[[I50]]
+
+
+:: I5 {"position":"550,600","size":"100,100"}
+[[D1]]
+
+
+:: I50 {"position":"725,5975","size":"100,100"}
+[[D14]]
+
+
+:: I51 {"position":"550,5850","size":"100,100"}
+[[I52]]
+
+
+:: I52 {"position":"575,5975","size":"100,100"}
+[[D14]]
+
+
+:: I53 {"position":"1225,2825","size":"100,100"}
+[[I72]]
+
+
+:: I54 {"position":"1200,3100","size":"100,100"}
+[[D15]]
+
+
+:: I55 {"position":"1075,3350","size":"100,100"}
+
+
+
+:: I56 {"position":"1450,3350","size":"100,100"}
+[[D15]]
+
+
+:: I57 {"position":"1325,3475","size":"100,100"}
+
+
+
+:: I58 {"position":"1450,3475","size":"100,100"}
+[[I59]]
+
+
+:: I59 {"position":"1450,3600","size":"100,100"}
+[[I102]]
+
+
+:: I6 {"position":"550,850","size":"100,100"}
+[[I9]]
+
+
+:: I60 {"position":"1200,3350","size":"100,100"}
+[[I61]]
+
+
+:: I61 {"position":"1200,3475","size":"100,100"}
+
+[[I62]]
+
+
+:: I62 {"position":"1200,3600","size":"100,100"}
+[[D16]]
+
+
+:: I63 {"position":"1200,3850","size":"100,100"}
+[[I64]]
+
+
+:: I64 {"position":"1200,3975","size":"100,100"}
+[[I65]]
+
+
+:: I65 {"position":"1200,4100","size":"100,100"}
+[[I66]]
+
+
+:: I66 {"position":"1200,4225","size":"100,100"}
+[[D17]]
+
+
+:: I67 {"position":"1525,4475","size":"100,100"}
+
+
+
+:: I68 {"position":"1225,4475","size":"100,100"}
+[[I102]]
+
+
+:: I69 {"position":"1375,4475","size":"100,100"}
+[[I70]]
+
+
+:: I7 {"position":"675,850","size":"100,100"}
+[[I8]]
+
+
+:: I70 {"position":"1375,4600","size":"100,100"}
+[[I71]]
+
+
+:: I71 {"position":"1375,4750","size":"100,100"}
+[[I102]]
+
+
+:: I72 {"position":"1225,2975","size":"100,100"}
+[[I54]]
+
+
+:: I73 {"position":"1075,4475","size":"100,100"}
+[[I74]]
+
+
+
+:: I74 {"position":"1100,4750","size":"100,100"}
+[[I102]]
+
+
+:: I75 {"position":"650,5475","size":"100,100"}
+[[D12]]
+
+
+:: I76 {"position":"1150,6175","size":"100,100"}
+[[I85]]
+
+
+:: I77 {"position":"925,6550","size":"100,100"}
+
+
+
+:: I78 {"position":"1200,6700","size":"100,100"}
+
+
+
+:: I79 {"position":"1275,6550","size":"100,100"}
+[[I80]]
+
+
+:: I8 {"position":"675,975","size":"100,100"}
+[[I9]]
+
+
+:: I80 {"position":"1225,7025","size":"100,100"}
+[[D21]]
+
+
+:: I81 {"position":"1075,6700","size":"100,100"}
+COMBAT
+
+[[I80]]
+
+
+:: I82 {"position":"950,6700","size":"100,100"}
+[[I83]]
+
+
+:: I83 {"position":"950,6825","size":"100,100"}
+[[I84]]
+
+
+:: I84 {"position":"950,6950","size":"100,100"}
+[[I80]]
+
+
+:: I85 {"position":"1150,6300","size":"100,100"}
+[[D19]]
+
+
+:: I86 {"position":"1100,7350","size":"100,100"}
+[[D22]]
+
+
+:: I87 {"position":"1100,7600","size":"100,100"}
+[[D23]]
+
+
+:: I88 {"position":"975,7850","size":"100,100"}
+
+
+
+:: I89 {"position":"1100,7850","size":"100,100"}
+
+
+
+:: I9 {"position":"550,975","size":"100,100"}
+[[D2]]
+
+
+:: I90 {"position":"1250,7850","size":"100,100"}
+[[D24]]
+
+
+:: I91 {"position":"1100,8200","size":"100,100"}
+[[I92]]
+
+
+:: I92 {"position":"1100,8325","size":"100,100"}
+[[I94]]
+
+
+:: I93 {"position":"1225,8200","size":"100,100"}
+
+
+
+:: I94 {"position":"1100,8450","size":"100,100"}
+[[D25]]
+
+
+:: I95 {"position":"975,8700","size":"100,100"}
+
+
+
+:: I96 {"position":"1150,8700","size":"100,100"}
+[[I97]]
+
+
+:: I97 {"position":"1150,8825","size":"100,100"}
+
+
+
+:: I98 {"position":"650,5350","size":"100,100"}
+[[I75]]
+
+
+:: I99 {"position":"375,3375","size":"100,100"}
+[[I27]]
+
+
+:: Passage sans titre {"position":"550,100","size":"100,100"}
+Je test
+
+[[Démarre |I1]]

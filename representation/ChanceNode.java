@@ -13,13 +13,18 @@ public class ChanceNode extends InnerNode {
     /** Liste des probabilités associées à chaque option de transition. La somme des probabilités doit être égale à 1. */
     private List<Double> proba = new ArrayList<>();
 
-    /** Constantes statiques pour représenter différentes configurations de probabilités. */
-    public static double[] AlmostSure = new double[]{1, 0};
-    public static double[] VeryHighChance = new double[]{0.9, 0.1};
-    public static double[] HighChance = new double[]{0.9, 0.1};
-    public static double[] MiddleChance = new double[]{0.65, 0.35};
-    public static double[] FiftyFifty = new double[]{0.5, 0.5};
-    public static double[] LowChance = new double[]{0.2, 0.8};
+    /**  Constantes statiques pour représenter différentes configurations de probabilités. proba : 1, 0 (victoire,défaite)*/
+    public final static double[] AlmostSure = new double[]{1, 0};
+    /**  Constantes statiques pour représenter différentes configurations de probabilités. proba : 0.9, 0.1 (victoire,défaite)*/
+    public final static double[] VeryHighChance = new double[]{0.9, 0.1};
+    /**  Constantes statiques pour représenter différentes configurations de probabilités. proba : 0.8, 0.2 (victoire,défaite)*/
+    public final static double[] HighChance = new double[]{0.8, 0.2};
+    /**  Constantes statiques pour représenter différentes configurations de probabilités. proba : 0.65, 0.35 (victoire,défaite)*/
+    public final static double[] MiddleChance = new double[]{0.65, 0.35};
+    /**  Constantes statiques pour représenter différentes configurations de probabilités. proba : 0.5, 0.5 (victoire,défaite)*/
+    public final static double[] FiftyFifty = new double[]{0.5, 0.5};
+    /**  Constantes statiques pour représenter différentes configurations de probabilités. proba : 0.2, 0.8 (victoire,défaite)*/
+    public final static double[] LowChance = new double[]{0.2, 0.8};
 
     /**
      * Constructeur avec une description spécifiée.

@@ -17,25 +17,18 @@ public abstract class Node implements Event, Serializable {
 
     /** Texte décrivant la situation de l'histoire dans le Node. */
     private String description;
-
     /** Le nombre de nodes créés. */
     private static int nbNodes = 0;
-
     /** Numéro unique associé à chaque Node. */
     private final int id;
-
     /** Vrai si le Node génère un son. */
     private boolean isSoundNode = false;
-
     /** Chemin du fichier si c'est un SoundNode. */
     private String fileName;
-
     /** Liste des personnages présents sur la scène. */
     protected List<PersonnageDeBase> personnages = new LinkedList<>();
-
     /** Liste des armes présentes sur la scène. */
     protected List<Arme> armes = new LinkedList<>();
-
     /** Liste des objets présents sur la scène. */
     protected List<Objet> objets = new LinkedList<>();
 

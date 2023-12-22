@@ -65,6 +65,13 @@ public abstract class Arme implements Serializable{
         this(Nom,attaque,portee,precision);
         this.Elem = Elem;
     }
+    /**
+     * Vérifie le rapport force et faiblesse entre deux éléments.
+     *
+     * @param e1 Premier élément.
+     * @param e2 Deuxième élément.
+     * @return true si e1 gagne contre existe, false sinon.
+     */
 
     public static boolean CycleElem(Element e1, Element e2){
         if(e1==null ||e2 == null) return false;
@@ -79,7 +86,14 @@ public abstract class Arme implements Serializable{
         }
     }
 
-    // Méthodes statiques pour les cycles d'éléments
+    /**
+     * Vérifie le rapport force et faiblesse entre un élément et un tableau d'éléments.
+     *
+     * @param e1       L'élément.
+     * @param elements Le tableau d'éléments.
+     * @return true si e1 bat un des élément ens eelements, false sinon.
+     */
+
     public static boolean CycleElems(Element e1, Element[] elements){
         if (elements == null) return false;
         boolean e = false;
@@ -88,19 +102,19 @@ public abstract class Arme implements Serializable{
         return e;
     }
 
+
+    /**
+     * Retourne une représentation textuelle de l'arme.
+     *
+     * @return La représentation textuelle de l'arme.
+     */
+
     @Override 
     public String toString(){
         if (this.Elem==null)
             return "\n" + this.Nom + "\nAttaque : " + this.attaque + "\nPortee : " + this.portee  + "\nPrecision : " + this.precision + "\nElement : AUCUN" ;
         else
             return "\n" + this.Nom + "\nAttaque : " + this.attaque + "\nPortee : " + this.portee  + "\nPrecision : " + this.precision + "\nELEMENT : " + this.Elem ;
-    }
-
-    // Ameliore les attributs de l'arme
-    public void Ameliorer(int att,int port,int prec){
-        this.attaque+= att;
-        this.portee += port;
-        this.precision += prec;
     }
 
     //GETTERS
@@ -156,21 +170,40 @@ public abstract class Arme implements Serializable{
         return this.Elem ;
     }
 
-    //SETTERS
+    // SETTERS
 
+    /**
+     * Définit la valeur d'attaque de l'arme.
+     *
+     * @param attaque La nouvelle valeur d'attaque.
+     */
     public void setAttaque(int attaque){
         this.attaque = attaque;
     }
 
+    /**
+     * Définit la valeur de portée de l'arme.
+     *
+     * @param portee La nouvelle valeur de portée.
+     */
     public void setPortee(int portee){
         this.portee = portee;
     }
 
+    /**
+     * Définit la précision de l'arme.
+     *
+     * @param precision La nouvelle précision.
+     */
     public void setPrecision(int precision){
         this.precision = precision;
     }
 
-
+    /**
+     * Définit l'élément de l'arme.
+     *
+     * @param Elem Le nouvel élément.
+     */
     public void setElem(Element Elem){
         this.Elem = Elem;
     }

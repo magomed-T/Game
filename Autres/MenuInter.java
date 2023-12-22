@@ -4,7 +4,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
@@ -13,12 +12,10 @@ import java.lang.Thread;
 import representation.*;
 import univers.Combattant;
 import univers.Element;
-import univers.PersonnageDeBase;
 import univers.Armes.Arme;
 import univers.Interfaces.Divin;
 import univers.Personnages.Divinite;
 import univers.Personnages.Heros;
-import univers.Personnages.Monstre;
 /**
  * La classe MenuInter représente un menu interactif pour un jeu. 
  * Elle permet de sauvegarder et charger des parties, de lancer une nouvelle partie
@@ -34,7 +31,7 @@ public class MenuInter{
 		/**
 	 * Sauvegarde un nœud (Node) dans un fichier en utilisant la sérialisation.
 	 * L'utilisateur est invité à entrer le nom de la sauvegarde.
-	 * 
+	 * Entrez "s" dans le termine lorsque vous êtes pas sur une une décision pour pouvoir sauvegarder la partie.
 	 * @param node Le nœud à sauvegarder.
 	 */
 
@@ -131,8 +128,14 @@ public class MenuInter{
 
 	/**
      * Gère un combat entre un héros et un adversaire (Combattant).
-     * Les actions du joueur et de l'adversaire sont déterminées de manière aléatoire.
-     * 
+	 * Système semblable au PIERRE-FEUILLE-CISEAU:
+	 * Attaque gagne contre BriseGarde | BriseGarde gagne contre Défense | Défense gagne contre Attaque.
+	 * Les actions du joueur sont déterminées par les décisions du joueur.
+     * Les actions de l'adversaire sont déterminéees de manière aléatoire.
+     * L'héros possède des chances de coups critiques définies selon la puissance de l'arme (somme des stats /100 )
+	 * Si coup critique, alors l'adversaire perd deux vies au lieu d'un
+	 * Si Element arme gagne contre Element adversaire alors , toujours coup critique
+	 * 
      * @param heros Le héros participant au combat.
      * @param adversaire L'adversaire avec lequel le héros combat.
      * @return true si le héros gagne le combat, false sinon.
@@ -184,7 +187,6 @@ public class MenuInter{
 		        }else {
 		        	nbVie_ad=nbVie_ad - 1;
 		        }
-		       
 		        
 			}else if ((rep==0 && nbAlea==2) || (rep == 1 && nbAlea==0) || (rep==2 && nbAlea==1)) {
 				System.out.println("Votre adversaire a choisi "+choix[nbAlea]+" :vous avez perdu");

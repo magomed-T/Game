@@ -4,8 +4,6 @@ import univers.*;
 import univers.Armes.*;
 import univers.Objets.Objet;
 import univers.Personnages.*;
-import univers.Personnages.Mortels.*;
-import univers.Interfaces.*;
 import java.util.Scanner;
 import java.util.List;
 import java.util.Map;
@@ -70,10 +68,21 @@ public class Game {
     // Choix du nom du personnage
     Heros heros = new Heros(null);
 
-    // Initialisation des nœuds de décision, de chance, et internes
+
+    // Initialisation des nœuds de décision, de chance
+
+    /** Contient toutes les nodes du jeu avec le titre du node associé à la clé : (titres)
+     * I? : pour InnerNode      (? : numero du node)
+     * D? : pour DecisionNode 
+     * C? : pour ChanceNode
+     * T? : pour TerminalNode
+    */
     Map<String,Node> nodeMap = Lecture.CreateNodeMap("Donnees/Nodes.txt");
+    /** Contient la liste des successeurs pour chaque node associée*/
     Map<String,List<String>> nodeNextMap = Lecture.CreateNodeNextMap("Donnees/NextNodes.txt");
+    //Créer les liaisons entre les nodes et ses listes de successeurs.
     Lecture.LinkNodeMap(nodeMap,nodeNextMap);
+    //Ajoute l'héros principal dans tous les nodes
     Lecture.addHerosNodeMap(nodeMap,heros);
     //Lecture.AfficheNodeMap(nodeMap,nodeNextMap);
 
@@ -98,7 +107,7 @@ public class Game {
     InnerNode I106 = (InnerNode) nodeMap.get("I106");
     
     
-     // Configuration des choix, conditions, objets, armes, etc. pour chaque nœud
+    // Configuration des choix, conditions, objets, armes, etc. pour chaque nœud
     D2.addArme(Epees[0]);
     D2.addArme(Lances[0]);
     D2.addArme(Arcs[0]);
@@ -160,10 +169,9 @@ public class Game {
     List<String> getArmeNode = Lecture.tabToArray(new String[]{"I52","I71","I74","I80"});
     String[] GameOverNode = new String[]{"I17","I25","I29","I32","I39","I44","I45","I48","I55","I57","I67","I77","I78","I88","I89","I93","I107"};
     String[][] SoundNode = new String[][]{
-        {"I4","Ailes.wav"},
         {"D3","Arraignee.wav"},
         {"I15","Pas.wav"},
-        {"I24","PierreTombale.wav"},
+        //{"I24","PierreTombale.wav"},
         {"I25","Aigle.wav"},
         {"I27","Pas.wav"},
         {"I29","RireGrave.wav"},
@@ -175,9 +183,9 @@ public class Game {
         {"I44","Fleche.wav"},
         {"I45","Galop.wav"},
         {"I46","EpeeLoup.wav"},
-        {"I49","TchinTchin.wav"},
+        //{"I49","TchinTchin.wav"},
         {"I64","Ailes.wav"},
-        {"I65","ChuteCorps.wav"},
+        //{"I65","ChuteCorps.wav"},
         {"I73","Flute.wav"},
         {"I77","Loup.wav"},
         {"I79","EpeeFend.wav"},
@@ -185,7 +193,7 @@ public class Game {
         //{"I88","Manger.wav"},
         {"I90","EpeeFend.wav"},
         {"I92","EpeeFend.wav"},
-        {"I102","Ailes.wav"},
+        //{"I102","Ailes.wav"},
         {"D13","RireGrave.wav"},
         {"D20","Loup.wav"},
     };
@@ -234,7 +242,7 @@ public class Game {
     //heros.addObjet(Objet.FLUTE_DE_PAN);
     //heros.addObjet(Objet.AMULETTE_OEDIPE);
     //MenuInter.Display(nodeMap);
-    NodeF.Execute(nodeMap.get("I42"),sc);
+    NodeF.Execute(nodeMap.get("I25"),sc);
 
     }
 }
