@@ -142,7 +142,7 @@ public class Game {
     D14.setCondition(2);
     D14.setNbOfDecision(2);
     D14.setObjets(new Objet[]{null,Objet.SANDALE_HERMES});
-    D14.setNextChoice(new int[][]{{1,1},{2,3}});
+    D14.setNextChoice(new int[][]{{1,1},{3,2}});
     D15.setNbOfDecision(3);
     D15.setCondition(2);
     D15.setObjets(new Objet[]{null,Objet.CIRE,null});

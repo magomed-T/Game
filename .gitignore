@@ -1,2 +1,22 @@
 /Main.class
 /Game.class
+
+# Java compilé
+*.class
+
+# Dossiers de compilation
+bin/
+target/
+out/
+build/
+
+# Eclipse
+.settings/
+.metadata/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
